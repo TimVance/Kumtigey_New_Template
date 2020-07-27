@@ -1,0 +1,31 @@
+div.news-list
+{
+	word-wrap: break-word;
+}
+div.news-list img.preview_picture
+{
+	float:left;
+	margin:0 4px 6px 0;
+}
+.news-date-time {
+	color:#486DAA;
+}
+
+.home-recommendation .news-list img.preview_picture {
+	margin-right: 25px;
+}
+
+.home-recommendation .news-list .news-item {
+	display: flex;
+	margin-bottom: 25px;
+	padding: 15px;
+	background-color: #fff;
+}
+
+.home-recommendation .news-list .news-item .title b {
+	color: #f56900;
+}
+
+.home-recommendation .title_block {
+	margin: 20px 0 16px;
+}

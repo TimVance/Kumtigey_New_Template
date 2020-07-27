@@ -1,0 +1,20 @@
+.sberbank-button {
+    background-color: #fff;
+    border-radius: 5px;
+    color: #3cbf63;
+    text-align: center;
+    font-size: 16px;
+    padding: 5px 0px;
+    margin-top: 5px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.sberbank-button > * {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.sberbank-button img {
+    margin-right: 10px;
+}

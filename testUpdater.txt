@@ -1,0 +1,20 @@
+SSSSSSSSSSSCUpdater Object
+(
+    [errorMessage] => Array
+        (
+        )
+
+    [curPath] => /bitrix/updates/update_m1534237468/gorillas.dadata
+    [curModulePath] => /bitrix/updates/update_m1534237468/gorillas.dadata
+    [dbType] => MYSQL
+    [updater] => /bitrix/updates/update_m1534237468/gorillas.dadata/updater1.5.6.php
+    [moduleID] => gorillas.dadata
+    [callType] => Array
+        (
+            [0] => KERNEL
+            [1] => PERSONAL
+            [2] => DATABASE
+        )
+
+    [kernelPath] => /bitrix
+)

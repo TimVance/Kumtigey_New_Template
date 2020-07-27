@@ -1,0 +1,3069 @@
+Host: kumtigey.ru:443
+Date: 2020-05-21 12:38:21
+Module: 
+Bitrix\Main\Event::__set_state(array(
+   'moduleId' => 'sale',
+   'type' => 'OnSaleBasketItemRefreshData',
+   'parameters' => 
+  array (
+    'ENTITY' => 
+    Bitrix\Sale\BasketItem::__set_state(array(
+       'bundleCollection' => NULL,
+       'propertyCollection' => NULL,
+       'calculatedFields' => 
+      Bitrix\Sale\Internals\Fields::__set_state(array(
+         'values' => 
+        array (
+        ),
+         'changedValues' => 
+        array (
+        ),
+         'originalValues' => 
+        array (
+        ),
+         'customFields' => 
+        array (
+        ),
+         'isClone' => false,
+      )),
+       'provider' => NULL,
+       'internalId' => 37199,
+       'collection' => 
+      Bitrix\Sale\Basket::__set_state(array(
+         'siteId' => 's1',
+         'fUserId' => 43,
+         'order' => NULL,
+         'basketItemIndexMap' => 
+        array (
+          37199 => 0,
+          37200 => 1,
+          37201 => 2,
+          37202 => 3,
+          37203 => 4,
+        ),
+         'maxItemSort' => 600,
+         'isLoadForFUserId' => true,
+         'isSaveExecuting' => false,
+         'index' => 4,
+         'isClone' => false,
+         'anyItemDeleted' => false,
+         'collection' => 
+        array (
+          0 => NULL,
+          1 => 
+          Bitrix\Sale\BasketItem::__set_state(array(
+             'bundleCollection' => NULL,
+             'propertyCollection' => NULL,
+             'calculatedFields' => 
+            Bitrix\Sale\Internals\Fields::__set_state(array(
+               'values' => 
+              array (
+              ),
+               'changedValues' => 
+              array (
+              ),
+               'originalValues' => 
+              array (
+              ),
+               'customFields' => 
+              array (
+              ),
+               'isClone' => false,
+            )),
+             'provider' => NULL,
+             'internalId' => 37200,
+             'collection' => NULL,
+             'internalIndex' => 1,
+             'isClone' => false,
+             'fields' => 
+            Bitrix\Sale\Internals\Fields::__set_state(array(
+               'values' => 
+              array (
+                'ID' => '37200',
+                'LID' => 's1',
+                'MODULE' => 'catalog',
+                'PRODUCT_ID' => '20882',
+                'QUANTITY' => '2.0000',
+                'WEIGHT' => '100.00',
+                'DELAY' => 'N',
+                'CAN_BUY' => 'Y',
+                'PRICE' => 608.0,
+                'CUSTOM_PRICE' => 'Y',
+                'BASE_PRICE' => 676.0,
+                'PRODUCT_PRICE_ID' => '20422',
+                'PRICE_TYPE_ID' => '1',
+                'CURRENCY' => 'RUB',
+                'BARCODE_MULTI' => 'N',
+                'RESERVED' => 'N',
+                'RESERVE_QUANTITY' => NULL,
+                'NAME' => 'Фреза профильная (d8/D28.6/H12.4/L54/R4) HM BOSCH 2608628394',
+                'CATALOG_XML_ID' => '3e11da7d-2c70-4d0d-a47e-85b7034e0a11',
+                'VAT_RATE' => '0.2000',
+                'NOTES' => 'Розничная цена',
+                'DISCOUNT_PRICE' => 0.0,
+                'PRODUCT_PROVIDER_CLASS' => 'CCatalogProductProviderCustom',
+                'CALLBACK_FUNC' => NULL,
+                'ORDER_CALLBACK_FUNC' => NULL,
+                'PAY_CALLBACK_FUNC' => NULL,
+                'CANCEL_CALLBACK_FUNC' => NULL,
+                'DIMENSIONS' => 'a:3:{s:5:"WIDTH";s:1:"0";s:6:"HEIGHT";s:1:"0";s:6:"LENGTH";s:1:"0";}',
+                'TYPE' => NULL,
+                'SET_PARENT_ID' => NULL,
+                'DETAIL_PAGE_URL' => '/catalog/raskhodnye_materialy_3/osnastka_dlya_ruchnykh_frezerov/frezy_po_derevu/freza_profilnaya_d8_d28_6_h12_4_l54_r4_hm_bosch_2608628394/',
+                'FUSER_ID' => '43',
+                'MEASURE_CODE' => '796',
+                'MEASURE_NAME' => 'шт',
+                'ORDER_ID' => NULL,
+                'DATE_INSERT' => 
+                Bitrix\Main\Type\DateTime::__set_state(array(
+                   'value' => 
+                  DateTime::__set_state(array(
+                     'date' => '2020-05-20 22:33:57.000000',
+                     'timezone_type' => 3,
+                     'timezone' => 'Europe/Moscow',
+                  )),
+                )),
+                'DATE_UPDATE' => 
+                Bitrix\Main\Type\DateTime::__set_state(array(
+                   'value' => 
+                  DateTime::__set_state(array(
+                     'date' => '2020-05-21 12:30:46.000000',
+                     'timezone_type' => 3,
+                     'timezone' => 'Europe/Moscow',
+                  )),
+                )),
+                'PRODUCT_XML_ID' => 'e4d13d8c-315e-4074-b988-04c18b258c85',
+                'SUBSCRIBE' => 'N',
+                'RECOMMENDATION' => NULL,
+                'VAT_INCLUDED' => 'Y',
+                'SORT' => '300',
+                'DATE_REFRESH' => NULL,
+                'DISCOUNT_NAME' => NULL,
+                'DISCOUNT_VALUE' => NULL,
+                'DISCOUNT_COUPON' => NULL,
+                'XML_ID' => 'bx_5ec58625b96f2',
+                'MARKING_CODE_GROUP' => NULL,
+              ),
+               'changedValues' => 
+              array (
+              ),
+               'originalValues' => 
+              array (
+              ),
+               'customFields' => 
+              array (
+                'PRICE' => true,
+              ),
+               'isClone' => false,
+            )),
+             'eventName' => NULL,
+          )),
+          2 => 
+          Bitrix\Sale\BasketItem::__set_state(array(
+             'bundleCollection' => NULL,
+             'propertyCollection' => NULL,
+             'calculatedFields' => 
+            Bitrix\Sale\Internals\Fields::__set_state(array(
+               'values' => 
+              array (
+              ),
+               'changedValues' => 
+              array (
+              ),
+               'originalValues' => 
+              array (
+              ),
+               'customFields' => 
+              array (
+              ),
+               'isClone' => false,
+            )),
+             'provider' => NULL,
+             'internalId' => 37201,
+             'collection' => NULL,
+             'internalIndex' => 2,
+             'isClone' => false,
+             'fields' => 
+            Bitrix\Sale\Internals\Fields::__set_state(array(
+               'values' => 
+              array (
+                'ID' => '37201',
+                'LID' => 's1',
+                'MODULE' => 'catalog',
+                'PRODUCT_ID' => '20880',
+                'QUANTITY' => '1.0000',
+                'WEIGHT' => '100.00',
+                'DELAY' => 'N',
+                'CAN_BUY' => 'Y',
+                'PRICE' => 422.0,
+                'CUSTOM_PRICE' => 'Y',
+                'BASE_PRICE' => 496.0,
+                'PRODUCT_PRICE_ID' => '20420',
+                'PRICE_TYPE_ID' => '1',
+                'CURRENCY' => 'RUB',
+                'BARCODE_MULTI' => 'N',
+                'RESERVED' => 'N',
+                'RESERVE_QUANTITY' => NULL,
+                'NAME' => 'Фреза кромочная фасонная (d8/D12.7/H12.4/L46/R2.4) HM BOSCH 2608628398',
+                'CATALOG_XML_ID' => '3e11da7d-2c70-4d0d-a47e-85b7034e0a11',
+                'VAT_RATE' => '0.2000',
+                'NOTES' => 'Розничная цена',
+                'DISCOUNT_PRICE' => 0.0,
+                'PRODUCT_PROVIDER_CLASS' => 'CCatalogProductProviderCustom',
+                'CALLBACK_FUNC' => NULL,
+                'ORDER_CALLBACK_FUNC' => NULL,
+                'PAY_CALLBACK_FUNC' => NULL,
+                'CANCEL_CALLBACK_FUNC' => NULL,
+                'DIMENSIONS' => 'a:3:{s:5:"WIDTH";s:1:"0";s:6:"HEIGHT";s:1:"0";s:6:"LENGTH";s:1:"0";}',
+                'TYPE' => NULL,
+                'SET_PARENT_ID' => NULL,
+                'DETAIL_PAGE_URL' => '/catalog/raskhodnye_materialy_3/osnastka_dlya_ruchnykh_frezerov/frezy_po_derevu/freza_kromochnaya_fasonnaya_d8_d12_7_h12_4_l46_r2_4_hm_bosch_2608628398/',
+                'FUSER_ID' => '43',
+                'MEASURE_CODE' => '796',
+                'MEASURE_NAME' => 'шт',
+                'ORDER_ID' => NULL,
+                'DATE_INSERT' => 
+                Bitrix\Main\Type\DateTime::__set_state(array(
+                   'value' => 
+                  DateTime::__set_state(array(
+                     'date' => '2020-05-20 22:33:58.000000',
+                     'timezone_type' => 3,
+                     'timezone' => 'Europe/Moscow',
+                  )),
+                )),
+                'DATE_UPDATE' => 
+                Bitrix\Main\Type\DateTime::__set_state(array(
+                   'value' => 
+                  DateTime::__set_state(array(
+                     'date' => '2020-05-21 12:30:46.000000',
+                     'timezone_type' => 3,
+                     'timezone' => 'Europe/Moscow',
+                  )),
+                )),
+                'PRODUCT_XML_ID' => 'd1bb2bfb-6a91-48cc-a3aa-4499f46cc65b',
+                'SUBSCRIBE' => 'N',
+                'RECOMMENDATION' => NULL,
+                'VAT_INCLUDED' => 'Y',
+                'SORT' => '400',
+                'DATE_REFRESH' => NULL,
+                'DISCOUNT_NAME' => NULL,
+                'DISCOUNT_VALUE' => NULL,
+                'DISCOUNT_COUPON' => NULL,
+                'XML_ID' => 'bx_5ec5862661870',
+                'MARKING_CODE_GROUP' => NULL,
+              ),
+               'changedValues' => 
+              array (
+              ),
+               'originalValues' => 
+              array (
+              ),
+               'customFields' => 
+              array (
+                'PRICE' => true,
+              ),
+               'isClone' => false,
+            )),
+             'eventName' => NULL,
+          )),
+          3 => 
+          Bitrix\Sale\BasketItem::__set_state(array(
+             'bundleCollection' => NULL,
+             'propertyCollection' => NULL,
+             'calculatedFields' => 
+            Bitrix\Sale\Internals\Fields::__set_state(array(
+               'values' => 
+              array (
+              ),
+               'changedValues' => 
+              array (
+              ),
+               'originalValues' => 
+              array (
+              ),
+               'customFields' => 
+              array (
+              ),
+               'isClone' => false,
+            )),
+             'provider' => NULL,
+             'internalId' => 37202,
+             'collection' => NULL,
+             'internalIndex' => 3,
+             'isClone' => false,
+             'fields' => 
+            Bitrix\Sale\Internals\Fields::__set_state(array(
+               'values' => 
+              array (
+                'ID' => '37202',
+                'LID' => 's1',
+                'MODULE' => 'catalog',
+                'PRODUCT_ID' => '20910',
+                'QUANTITY' => '1.0000',
+                'WEIGHT' => '100.00',
+                'DELAY' => 'N',
+                'CAN_BUY' => 'Y',
+                'PRICE' => 885.0,
+                'CUSTOM_PRICE' => 'Y',
+                'BASE_PRICE' => 885.0,
+                'PRODUCT_PRICE_ID' => '20450',
+                'PRICE_TYPE_ID' => '1',
+                'CURRENCY' => 'RUB',
+                'BARCODE_MULTI' => 'N',
+                'RESERVED' => 'N',
+                'RESERVE_QUANTITY' => NULL,
+                'NAME' => 'Хвостовик для плоских фрез (d8/L60.3) Expert for Wood BOSCH 2608629390',
+                'CATALOG_XML_ID' => '3e11da7d-2c70-4d0d-a47e-85b7034e0a11',
+                'VAT_RATE' => '0.2000',
+                'NOTES' => 'Розничная цена',
+                'DISCOUNT_PRICE' => 0.0,
+                'PRODUCT_PROVIDER_CLASS' => 'CCatalogProductProviderCustom',
+                'CALLBACK_FUNC' => NULL,
+                'ORDER_CALLBACK_FUNC' => NULL,
+                'PAY_CALLBACK_FUNC' => NULL,
+                'CANCEL_CALLBACK_FUNC' => NULL,
+                'DIMENSIONS' => 'a:3:{s:5:"WIDTH";s:1:"0";s:6:"HEIGHT";s:1:"0";s:6:"LENGTH";s:1:"0";}',
+                'TYPE' => NULL,
+                'SET_PARENT_ID' => NULL,
+                'DETAIL_PAGE_URL' => '/catalog/raskhodnye_materialy_3/osnastka_dlya_ruchnykh_frezerov/frezy_po_derevu/khvostovik_dlya_ploskikh_frez_d8_l60_3_expert_for_wood_bosch_2608629390/',
+                'FUSER_ID' => '43',
+                'MEASURE_CODE' => '796',
+                'MEASURE_NAME' => 'шт',
+                'ORDER_ID' => NULL,
+                'DATE_INSERT' => 
+                Bitrix\Main\Type\DateTime::__set_state(array(
+                   'value' => 
+                  DateTime::__set_state(array(
+                     'date' => '2020-05-20 22:34:16.000000',
+                     'timezone_type' => 3,
+                     'timezone' => 'Europe/Moscow',
+                  )),
+                )),
+                'DATE_UPDATE' => 
+                Bitrix\Main\Type\DateTime::__set_state(array(
+                   'value' => 
+                  DateTime::__set_state(array(
+                     'date' => '2020-05-21 01:02:44.000000',
+                     'timezone_type' => 3,
+                     'timezone' => 'Europe/Moscow',
+                  )),
+                )),
+                'PRODUCT_XML_ID' => 'a2df8a8b-54ed-4780-b32e-453aba5898a5',
+                'SUBSCRIBE' => 'N',
+                'RECOMMENDATION' => NULL,
+                'VAT_INCLUDED' => 'Y',
+                'SORT' => '500',
+                'DATE_REFRESH' => NULL,
+                'DISCOUNT_NAME' => NULL,
+                'DISCOUNT_VALUE' => NULL,
+                'DISCOUNT_COUPON' => NULL,
+                'XML_ID' => 'bx_5ec58638e8ce4',
+                'MARKING_CODE_GROUP' => NULL,
+              ),
+               'changedValues' => 
+              array (
+              ),
+               'originalValues' => 
+              array (
+              ),
+               'customFields' => 
+              array (
+                'PRICE' => true,
+              ),
+               'isClone' => false,
+            )),
+             'eventName' => NULL,
+          )),
+          4 => 
+          Bitrix\Sale\BasketItem::__set_state(array(
+             'bundleCollection' => NULL,
+             'propertyCollection' => NULL,
+             'calculatedFields' => 
+            Bitrix\Sale\Internals\Fields::__set_state(array(
+               'values' => 
+              array (
+              ),
+               'changedValues' => 
+              array (
+              ),
+               'originalValues' => 
+              array (
+              ),
+               'customFields' => 
+              array (
+              ),
+               'isClone' => false,
+            )),
+             'provider' => NULL,
+             'internalId' => 37203,
+             'collection' => NULL,
+             'internalIndex' => 4,
+             'isClone' => false,
+             'fields' => 
+            Bitrix\Sale\Internals\Fields::__set_state(array(
+               'values' => 
+              array (
+                'ID' => '37203',
+                'LID' => 's1',
+                'MODULE' => 'catalog',
+                'PRODUCT_ID' => '20910',
+                'QUANTITY' => '1.0000',
+                'WEIGHT' => '100.00',
+                'DELAY' => 'N',
+                'CAN_BUY' => 'Y',
+                'PRICE' => 885.0,
+                'CUSTOM_PRICE' => 'Y',
+                'BASE_PRICE' => 885.0,
+                'PRODUCT_PRICE_ID' => '20450',
+                'PRICE_TYPE_ID' => '1',
+                'CURRENCY' => 'RUB',
+                'BARCODE_MULTI' => 'N',
+                'RESERVED' => 'N',
+                'RESERVE_QUANTITY' => NULL,
+                'NAME' => 'Хвостовик для плоских фрез (d8/L60.3) Expert for Wood BOSCH 2608629390',
+                'CATALOG_XML_ID' => '3e11da7d-2c70-4d0d-a47e-85b7034e0a11',
+                'VAT_RATE' => '0.2000',
+                'NOTES' => 'Розничная цена',
+                'DISCOUNT_PRICE' => 0.0,
+                'PRODUCT_PROVIDER_CLASS' => 'CCatalogProductProviderCustom',
+                'CALLBACK_FUNC' => NULL,
+                'ORDER_CALLBACK_FUNC' => NULL,
+                'PAY_CALLBACK_FUNC' => NULL,
+                'CANCEL_CALLBACK_FUNC' => NULL,
+                'DIMENSIONS' => 'a:3:{s:5:"WIDTH";s:1:"0";s:6:"HEIGHT";s:1:"0";s:6:"LENGTH";s:1:"0";}',
+                'TYPE' => NULL,
+                'SET_PARENT_ID' => NULL,
+                'DETAIL_PAGE_URL' => '/catalog/raskhodnye_materialy_3/osnastka_dlya_ruchnykh_frezerov/frezy_po_derevu/khvostovik_dlya_ploskikh_frez_d8_l60_3_expert_for_wood_bosch_2608629390/',
+                'FUSER_ID' => '43',
+                'MEASURE_CODE' => '796',
+                'MEASURE_NAME' => 'шт',
+                'ORDER_ID' => NULL,
+                'DATE_INSERT' => 
+                Bitrix\Main\Type\DateTime::__set_state(array(
+                   'value' => 
+                  DateTime::__set_state(array(
+                     'date' => '2020-05-20 22:34:16.000000',
+                     'timezone_type' => 3,
+                     'timezone' => 'Europe/Moscow',
+                  )),
+                )),
+                'DATE_UPDATE' => 
+                Bitrix\Main\Type\DateTime::__set_state(array(
+                   'value' => 
+                  DateTime::__set_state(array(
+                     'date' => '2020-05-21 01:02:44.000000',
+                     'timezone_type' => 3,
+                     'timezone' => 'Europe/Moscow',
+                  )),
+                )),
+                'PRODUCT_XML_ID' => 'a2df8a8b-54ed-4780-b32e-453aba5898a5',
+                'SUBSCRIBE' => 'N',
+                'RECOMMENDATION' => NULL,
+                'VAT_INCLUDED' => 'Y',
+                'SORT' => '600',
+                'DATE_REFRESH' => NULL,
+                'DISCOUNT_NAME' => NULL,
+                'DISCOUNT_VALUE' => NULL,
+                'DISCOUNT_COUPON' => NULL,
+                'XML_ID' => 'bx_5ec58638efede',
+                'MARKING_CODE_GROUP' => NULL,
+              ),
+               'changedValues' => 
+              array (
+              ),
+               'originalValues' => 
+              array (
+              ),
+               'customFields' => 
+              array (
+                'PRICE' => true,
+              ),
+               'isClone' => false,
+            )),
+             'eventName' => NULL,
+          )),
+        ),
+      )),
+       'internalIndex' => 0,
+       'isClone' => false,
+       'fields' => 
+      Bitrix\Sale\Internals\Fields::__set_state(array(
+         'values' => 
+        array (
+          'ID' => '37199',
+          'LID' => 's1',
+          'MODULE' => 'catalog',
+          'PRODUCT_ID' => '20904',
+          'QUANTITY' => '4.0000',
+          'WEIGHT' => '100.00',
+          'DELAY' => 'N',
+          'CAN_BUY' => 'Y',
+          'PRICE' => 713.0,
+          'CUSTOM_PRICE' => 'Y',
+          'BASE_PRICE' => 750.0,
+          'PRODUCT_PRICE_ID' => '20444',
+          'PRICE_TYPE_ID' => '1',
+          'CURRENCY' => 'RUB',
+          'BARCODE_MULTI' => 'N',
+          'RESERVED' => 'N',
+          'RESERVE_QUANTITY' => NULL,
+          'NAME' => 'Фреза радиусная (d8/D20.7/H10.5/L53/R4 мм) HM BOSCH 2608628339',
+          'CATALOG_XML_ID' => '3e11da7d-2c70-4d0d-a47e-85b7034e0a11',
+          'VAT_RATE' => '0.2000',
+          'NOTES' => 'Розничная цена',
+          'DISCOUNT_PRICE' => 0.0,
+          'PRODUCT_PROVIDER_CLASS' => 'CCatalogProductProviderCustom',
+          'CALLBACK_FUNC' => NULL,
+          'ORDER_CALLBACK_FUNC' => NULL,
+          'PAY_CALLBACK_FUNC' => NULL,
+          'CANCEL_CALLBACK_FUNC' => NULL,
+          'DIMENSIONS' => 'a:3:{s:5:"WIDTH";s:1:"0";s:6:"HEIGHT";s:1:"0";s:6:"LENGTH";s:1:"0";}',
+          'TYPE' => NULL,
+          'SET_PARENT_ID' => NULL,
+          'DETAIL_PAGE_URL' => '/catalog/raskhodnye_materialy_3/osnastka_dlya_ruchnykh_frezerov/frezy_po_derevu/freza_radiusnaya_d8_d20_7_h10_5_l53_r4_mm_hm_bosch_2608628339/',
+          'FUSER_ID' => '43',
+          'MEASURE_CODE' => '796',
+          'MEASURE_NAME' => 'шт',
+          'ORDER_ID' => NULL,
+          'DATE_INSERT' => 
+          Bitrix\Main\Type\DateTime::__set_state(array(
+             'value' => 
+            DateTime::__set_state(array(
+               'date' => '2020-05-20 22:33:56.000000',
+               'timezone_type' => 3,
+               'timezone' => 'Europe/Moscow',
+            )),
+          )),
+          'DATE_UPDATE' => 
+          Bitrix\Main\Type\DateTime::__set_state(array(
+             'value' => 
+            DateTime::__set_state(array(
+               'date' => '2020-05-21 12:30:46.000000',
+               'timezone_type' => 3,
+               'timezone' => 'Europe/Moscow',
+            )),
+          )),
+          'PRODUCT_XML_ID' => 'cc5d30e0-7675-4503-baa7-9c918a07ff46',
+          'SUBSCRIBE' => 'N',
+          'RECOMMENDATION' => NULL,
+          'VAT_INCLUDED' => 'Y',
+          'SORT' => '200',
+          'DATE_REFRESH' => NULL,
+          'DISCOUNT_NAME' => NULL,
+          'DISCOUNT_VALUE' => NULL,
+          'DISCOUNT_COUPON' => NULL,
+          'XML_ID' => 'bx_5ec58624e6c8a',
+          'MARKING_CODE_GROUP' => NULL,
+        ),
+         'changedValues' => 
+        array (
+        ),
+         'originalValues' => 
+        array (
+        ),
+         'customFields' => 
+        array (
+          'PRICE' => true,
+        ),
+         'isClone' => false,
+      )),
+       'eventName' => NULL,
+    )),
+    'VALUES' => 
+    array (
+      'QUANTITY' => 4.0,
+      'AVAILABLE_QUANTITY' => 4.0,
+      'PRICE_LIST' => 
+      array (
+        37199 => 
+        array (
+          'QUANTITY' => 4.0,
+          'AVAILABLE_QUANTITY' => 4.0,
+          'ITEM_CODE' => 20904,
+          'BASKET_CODE' => 37199,
+        ),
+      ),
+    ),
+    'PREPARED_VALUES' => 
+    array (
+      'QUANTITY' => 4.0,
+    ),
+  ),
+   'parametersLoader' => NULL,
+   'filter' => NULL,
+   'sender' => NULL,
+   'debugMode' => false,
+   'debugInfo' => 
+  array (
+  ),
+   'results' => 
+  array (
+  ),
+   'exceptions' => 
+  array (
+  ),
+))
+    calcActionDiscount::OnGetDiscountResult < call_user_func_array < Bitrix\Main\EventManager::sendToEventHandler < Bitrix\Main\EventManager::send < Bitrix\Main\Event::send
+	/home/bitrix/www/bitrix/modules/main/lib/eventmanager.php:435
+	/home/bitrix/www/bitrix/modules/main/lib/eventmanager.php:371
+	/home/bitrix/www/bitrix/modules/main/lib/event.php:142
+	/home/bitrix/www/bitrix/modules/sale/lib/basket/baserefreshstrategy.php:177
+----------
+Host: kumtigey.ru:443
+Date: 2020-05-21 12:38:21
+Module: 
+Bitrix\Main\Event::__set_state(array(
+   'moduleId' => 'sale',
+   'type' => 'OnSaleBasketItemRefreshData',
+   'parameters' => 
+  array (
+    'ENTITY' => 
+    Bitrix\Sale\BasketItem::__set_state(array(
+       'bundleCollection' => NULL,
+       'propertyCollection' => NULL,
+       'calculatedFields' => 
+      Bitrix\Sale\Internals\Fields::__set_state(array(
+         'values' => 
+        array (
+        ),
+         'changedValues' => 
+        array (
+        ),
+         'originalValues' => 
+        array (
+        ),
+         'customFields' => 
+        array (
+        ),
+         'isClone' => false,
+      )),
+       'provider' => NULL,
+       'internalId' => 37200,
+       'collection' => 
+      Bitrix\Sale\Basket::__set_state(array(
+         'siteId' => 's1',
+         'fUserId' => 43,
+         'order' => NULL,
+         'basketItemIndexMap' => 
+        array (
+          37199 => 0,
+          37200 => 1,
+          37201 => 2,
+          37202 => 3,
+          37203 => 4,
+        ),
+         'maxItemSort' => 600,
+         'isLoadForFUserId' => true,
+         'isSaveExecuting' => false,
+         'index' => 4,
+         'isClone' => false,
+         'anyItemDeleted' => false,
+         'collection' => 
+        array (
+          0 => 
+          Bitrix\Sale\BasketItem::__set_state(array(
+             'bundleCollection' => NULL,
+             'propertyCollection' => NULL,
+             'calculatedFields' => 
+            Bitrix\Sale\Internals\Fields::__set_state(array(
+               'values' => 
+              array (
+              ),
+               'changedValues' => 
+              array (
+              ),
+               'originalValues' => 
+              array (
+              ),
+               'customFields' => 
+              array (
+              ),
+               'isClone' => false,
+            )),
+             'provider' => NULL,
+             'internalId' => 37199,
+             'collection' => NULL,
+             'internalIndex' => 0,
+             'isClone' => false,
+             'fields' => 
+            Bitrix\Sale\Internals\Fields::__set_state(array(
+               'values' => 
+              array (
+                'ID' => '37199',
+                'LID' => 's1',
+                'MODULE' => 'catalog',
+                'PRODUCT_ID' => '20904',
+                'QUANTITY' => '4.0000',
+                'WEIGHT' => '100.00',
+                'DELAY' => 'N',
+                'CAN_BUY' => 'Y',
+                'PRICE' => 713.0,
+                'CUSTOM_PRICE' => 'Y',
+                'BASE_PRICE' => 750.0,
+                'PRODUCT_PRICE_ID' => '20444',
+                'PRICE_TYPE_ID' => '1',
+                'CURRENCY' => 'RUB',
+                'BARCODE_MULTI' => 'N',
+                'RESERVED' => 'N',
+                'RESERVE_QUANTITY' => NULL,
+                'NAME' => 'Фреза радиусная (d8/D20.7/H10.5/L53/R4 мм) HM BOSCH 2608628339',
+                'CATALOG_XML_ID' => '3e11da7d-2c70-4d0d-a47e-85b7034e0a11',
+                'VAT_RATE' => '0.2000',
+                'NOTES' => 'Розничная цена',
+                'DISCOUNT_PRICE' => 0.0,
+                'PRODUCT_PROVIDER_CLASS' => 'CCatalogProductProviderCustom',
+                'CALLBACK_FUNC' => NULL,
+                'ORDER_CALLBACK_FUNC' => NULL,
+                'PAY_CALLBACK_FUNC' => NULL,
+                'CANCEL_CALLBACK_FUNC' => NULL,
+                'DIMENSIONS' => 'a:3:{s:5:"WIDTH";s:1:"0";s:6:"HEIGHT";s:1:"0";s:6:"LENGTH";s:1:"0";}',
+                'TYPE' => NULL,
+                'SET_PARENT_ID' => NULL,
+                'DETAIL_PAGE_URL' => '/catalog/raskhodnye_materialy_3/osnastka_dlya_ruchnykh_frezerov/frezy_po_derevu/freza_radiusnaya_d8_d20_7_h10_5_l53_r4_mm_hm_bosch_2608628339/',
+                'FUSER_ID' => '43',
+                'MEASURE_CODE' => '796',
+                'MEASURE_NAME' => 'шт',
+                'ORDER_ID' => NULL,
+                'DATE_INSERT' => 
+                Bitrix\Main\Type\DateTime::__set_state(array(
+                   'value' => 
+                  DateTime::__set_state(array(
+                     'date' => '2020-05-20 22:33:56.000000',
+                     'timezone_type' => 3,
+                     'timezone' => 'Europe/Moscow',
+                  )),
+                )),
+                'DATE_UPDATE' => 
+                Bitrix\Main\Type\DateTime::__set_state(array(
+                   'value' => 
+                  DateTime::__set_state(array(
+                     'date' => '2020-05-21 12:30:46.000000',
+                     'timezone_type' => 3,
+                     'timezone' => 'Europe/Moscow',
+                  )),
+                )),
+                'PRODUCT_XML_ID' => 'cc5d30e0-7675-4503-baa7-9c918a07ff46',
+                'SUBSCRIBE' => 'N',
+                'RECOMMENDATION' => NULL,
+                'VAT_INCLUDED' => 'Y',
+                'SORT' => '200',
+                'DATE_REFRESH' => NULL,
+                'DISCOUNT_NAME' => NULL,
+                'DISCOUNT_VALUE' => NULL,
+                'DISCOUNT_COUPON' => NULL,
+                'XML_ID' => 'bx_5ec58624e6c8a',
+                'MARKING_CODE_GROUP' => NULL,
+              ),
+               'changedValues' => 
+              array (
+              ),
+               'originalValues' => 
+              array (
+              ),
+               'customFields' => 
+              array (
+                'PRICE' => true,
+              ),
+               'isClone' => false,
+            )),
+             'eventName' => 'SaleBasketItem',
+          )),
+          1 => NULL,
+          2 => 
+          Bitrix\Sale\BasketItem::__set_state(array(
+             'bundleCollection' => NULL,
+             'propertyCollection' => NULL,
+             'calculatedFields' => 
+            Bitrix\Sale\Internals\Fields::__set_state(array(
+               'values' => 
+              array (
+              ),
+               'changedValues' => 
+              array (
+              ),
+               'originalValues' => 
+              array (
+              ),
+               'customFields' => 
+              array (
+              ),
+               'isClone' => false,
+            )),
+             'provider' => NULL,
+             'internalId' => 37201,
+             'collection' => NULL,
+             'internalIndex' => 2,
+             'isClone' => false,
+             'fields' => 
+            Bitrix\Sale\Internals\Fields::__set_state(array(
+               'values' => 
+              array (
+                'ID' => '37201',
+                'LID' => 's1',
+                'MODULE' => 'catalog',
+                'PRODUCT_ID' => '20880',
+                'QUANTITY' => '1.0000',
+                'WEIGHT' => '100.00',
+                'DELAY' => 'N',
+                'CAN_BUY' => 'Y',
+                'PRICE' => 422.0,
+                'CUSTOM_PRICE' => 'Y',
+                'BASE_PRICE' => 496.0,
+                'PRODUCT_PRICE_ID' => '20420',
+                'PRICE_TYPE_ID' => '1',
+                'CURRENCY' => 'RUB',
+                'BARCODE_MULTI' => 'N',
+                'RESERVED' => 'N',
+                'RESERVE_QUANTITY' => NULL,
+                'NAME' => 'Фреза кромочная фасонная (d8/D12.7/H12.4/L46/R2.4) HM BOSCH 2608628398',
+                'CATALOG_XML_ID' => '3e11da7d-2c70-4d0d-a47e-85b7034e0a11',
+                'VAT_RATE' => '0.2000',
+                'NOTES' => 'Розничная цена',
+                'DISCOUNT_PRICE' => 0.0,
+                'PRODUCT_PROVIDER_CLASS' => 'CCatalogProductProviderCustom',
+                'CALLBACK_FUNC' => NULL,
+                'ORDER_CALLBACK_FUNC' => NULL,
+                'PAY_CALLBACK_FUNC' => NULL,
+                'CANCEL_CALLBACK_FUNC' => NULL,
+                'DIMENSIONS' => 'a:3:{s:5:"WIDTH";s:1:"0";s:6:"HEIGHT";s:1:"0";s:6:"LENGTH";s:1:"0";}',
+                'TYPE' => NULL,
+                'SET_PARENT_ID' => NULL,
+                'DETAIL_PAGE_URL' => '/catalog/raskhodnye_materialy_3/osnastka_dlya_ruchnykh_frezerov/frezy_po_derevu/freza_kromochnaya_fasonnaya_d8_d12_7_h12_4_l46_r2_4_hm_bosch_2608628398/',
+                'FUSER_ID' => '43',
+                'MEASURE_CODE' => '796',
+                'MEASURE_NAME' => 'шт',
+                'ORDER_ID' => NULL,
+                'DATE_INSERT' => 
+                Bitrix\Main\Type\DateTime::__set_state(array(
+                   'value' => 
+                  DateTime::__set_state(array(
+                     'date' => '2020-05-20 22:33:58.000000',
+                     'timezone_type' => 3,
+                     'timezone' => 'Europe/Moscow',
+                  )),
+                )),
+                'DATE_UPDATE' => 
+                Bitrix\Main\Type\DateTime::__set_state(array(
+                   'value' => 
+                  DateTime::__set_state(array(
+                     'date' => '2020-05-21 12:30:46.000000',
+                     'timezone_type' => 3,
+                     'timezone' => 'Europe/Moscow',
+                  )),
+                )),
+                'PRODUCT_XML_ID' => 'd1bb2bfb-6a91-48cc-a3aa-4499f46cc65b',
+                'SUBSCRIBE' => 'N',
+                'RECOMMENDATION' => NULL,
+                'VAT_INCLUDED' => 'Y',
+                'SORT' => '400',
+                'DATE_REFRESH' => NULL,
+                'DISCOUNT_NAME' => NULL,
+                'DISCOUNT_VALUE' => NULL,
+                'DISCOUNT_COUPON' => NULL,
+                'XML_ID' => 'bx_5ec5862661870',
+                'MARKING_CODE_GROUP' => NULL,
+              ),
+               'changedValues' => 
+              array (
+              ),
+               'originalValues' => 
+              array (
+              ),
+               'customFields' => 
+              array (
+                'PRICE' => true,
+              ),
+               'isClone' => false,
+            )),
+             'eventName' => NULL,
+          )),
+          3 => 
+          Bitrix\Sale\BasketItem::__set_state(array(
+             'bundleCollection' => NULL,
+             'propertyCollection' => NULL,
+             'calculatedFields' => 
+            Bitrix\Sale\Internals\Fields::__set_state(array(
+               'values' => 
+              array (
+              ),
+               'changedValues' => 
+              array (
+              ),
+               'originalValues' => 
+              array (
+              ),
+               'customFields' => 
+              array (
+              ),
+               'isClone' => false,
+            )),
+             'provider' => NULL,
+             'internalId' => 37202,
+             'collection' => NULL,
+             'internalIndex' => 3,
+             'isClone' => false,
+             'fields' => 
+            Bitrix\Sale\Internals\Fields::__set_state(array(
+               'values' => 
+              array (
+                'ID' => '37202',
+                'LID' => 's1',
+                'MODULE' => 'catalog',
+                'PRODUCT_ID' => '20910',
+                'QUANTITY' => '1.0000',
+                'WEIGHT' => '100.00',
+                'DELAY' => 'N',
+                'CAN_BUY' => 'Y',
+                'PRICE' => 885.0,
+                'CUSTOM_PRICE' => 'Y',
+                'BASE_PRICE' => 885.0,
+                'PRODUCT_PRICE_ID' => '20450',
+                'PRICE_TYPE_ID' => '1',
+                'CURRENCY' => 'RUB',
+                'BARCODE_MULTI' => 'N',
+                'RESERVED' => 'N',
+                'RESERVE_QUANTITY' => NULL,
+                'NAME' => 'Хвостовик для плоских фрез (d8/L60.3) Expert for Wood BOSCH 2608629390',
+                'CATALOG_XML_ID' => '3e11da7d-2c70-4d0d-a47e-85b7034e0a11',
+                'VAT_RATE' => '0.2000',
+                'NOTES' => 'Розничная цена',
+                'DISCOUNT_PRICE' => 0.0,
+                'PRODUCT_PROVIDER_CLASS' => 'CCatalogProductProviderCustom',
+                'CALLBACK_FUNC' => NULL,
+                'ORDER_CALLBACK_FUNC' => NULL,
+                'PAY_CALLBACK_FUNC' => NULL,
+                'CANCEL_CALLBACK_FUNC' => NULL,
+                'DIMENSIONS' => 'a:3:{s:5:"WIDTH";s:1:"0";s:6:"HEIGHT";s:1:"0";s:6:"LENGTH";s:1:"0";}',
+                'TYPE' => NULL,
+                'SET_PARENT_ID' => NULL,
+                'DETAIL_PAGE_URL' => '/catalog/raskhodnye_materialy_3/osnastka_dlya_ruchnykh_frezerov/frezy_po_derevu/khvostovik_dlya_ploskikh_frez_d8_l60_3_expert_for_wood_bosch_2608629390/',
+                'FUSER_ID' => '43',
+                'MEASURE_CODE' => '796',
+                'MEASURE_NAME' => 'шт',
+                'ORDER_ID' => NULL,
+                'DATE_INSERT' => 
+                Bitrix\Main\Type\DateTime::__set_state(array(
+                   'value' => 
+                  DateTime::__set_state(array(
+                     'date' => '2020-05-20 22:34:16.000000',
+                     'timezone_type' => 3,
+                     'timezone' => 'Europe/Moscow',
+                  )),
+                )),
+                'DATE_UPDATE' => 
+                Bitrix\Main\Type\DateTime::__set_state(array(
+                   'value' => 
+                  DateTime::__set_state(array(
+                     'date' => '2020-05-21 01:02:44.000000',
+                     'timezone_type' => 3,
+                     'timezone' => 'Europe/Moscow',
+                  )),
+                )),
+                'PRODUCT_XML_ID' => 'a2df8a8b-54ed-4780-b32e-453aba5898a5',
+                'SUBSCRIBE' => 'N',
+                'RECOMMENDATION' => NULL,
+                'VAT_INCLUDED' => 'Y',
+                'SORT' => '500',
+                'DATE_REFRESH' => NULL,
+                'DISCOUNT_NAME' => NULL,
+                'DISCOUNT_VALUE' => NULL,
+                'DISCOUNT_COUPON' => NULL,
+                'XML_ID' => 'bx_5ec58638e8ce4',
+                'MARKING_CODE_GROUP' => NULL,
+              ),
+               'changedValues' => 
+              array (
+              ),
+               'originalValues' => 
+              array (
+              ),
+               'customFields' => 
+              array (
+                'PRICE' => true,
+              ),
+               'isClone' => false,
+            )),
+             'eventName' => NULL,
+          )),
+          4 => 
+          Bitrix\Sale\BasketItem::__set_state(array(
+             'bundleCollection' => NULL,
+             'propertyCollection' => NULL,
+             'calculatedFields' => 
+            Bitrix\Sale\Internals\Fields::__set_state(array(
+               'values' => 
+              array (
+              ),
+               'changedValues' => 
+              array (
+              ),
+               'originalValues' => 
+              array (
+              ),
+               'customFields' => 
+              array (
+              ),
+               'isClone' => false,
+            )),
+             'provider' => NULL,
+             'internalId' => 37203,
+             'collection' => NULL,
+             'internalIndex' => 4,
+             'isClone' => false,
+             'fields' => 
+            Bitrix\Sale\Internals\Fields::__set_state(array(
+               'values' => 
+              array (
+                'ID' => '37203',
+                'LID' => 's1',
+                'MODULE' => 'catalog',
+                'PRODUCT_ID' => '20910',
+                'QUANTITY' => '1.0000',
+                'WEIGHT' => '100.00',
+                'DELAY' => 'N',
+                'CAN_BUY' => 'Y',
+                'PRICE' => 885.0,
+                'CUSTOM_PRICE' => 'Y',
+                'BASE_PRICE' => 885.0,
+                'PRODUCT_PRICE_ID' => '20450',
+                'PRICE_TYPE_ID' => '1',
+                'CURRENCY' => 'RUB',
+                'BARCODE_MULTI' => 'N',
+                'RESERVED' => 'N',
+                'RESERVE_QUANTITY' => NULL,
+                'NAME' => 'Хвостовик для плоских фрез (d8/L60.3) Expert for Wood BOSCH 2608629390',
+                'CATALOG_XML_ID' => '3e11da7d-2c70-4d0d-a47e-85b7034e0a11',
+                'VAT_RATE' => '0.2000',
+                'NOTES' => 'Розничная цена',
+                'DISCOUNT_PRICE' => 0.0,
+                'PRODUCT_PROVIDER_CLASS' => 'CCatalogProductProviderCustom',
+                'CALLBACK_FUNC' => NULL,
+                'ORDER_CALLBACK_FUNC' => NULL,
+                'PAY_CALLBACK_FUNC' => NULL,
+                'CANCEL_CALLBACK_FUNC' => NULL,
+                'DIMENSIONS' => 'a:3:{s:5:"WIDTH";s:1:"0";s:6:"HEIGHT";s:1:"0";s:6:"LENGTH";s:1:"0";}',
+                'TYPE' => NULL,
+                'SET_PARENT_ID' => NULL,
+                'DETAIL_PAGE_URL' => '/catalog/raskhodnye_materialy_3/osnastka_dlya_ruchnykh_frezerov/frezy_po_derevu/khvostovik_dlya_ploskikh_frez_d8_l60_3_expert_for_wood_bosch_2608629390/',
+                'FUSER_ID' => '43',
+                'MEASURE_CODE' => '796',
+                'MEASURE_NAME' => 'шт',
+                'ORDER_ID' => NULL,
+                'DATE_INSERT' => 
+                Bitrix\Main\Type\DateTime::__set_state(array(
+                   'value' => 
+                  DateTime::__set_state(array(
+                     'date' => '2020-05-20 22:34:16.000000',
+                     'timezone_type' => 3,
+                     'timezone' => 'Europe/Moscow',
+                  )),
+                )),
+                'DATE_UPDATE' => 
+                Bitrix\Main\Type\DateTime::__set_state(array(
+                   'value' => 
+                  DateTime::__set_state(array(
+                     'date' => '2020-05-21 01:02:44.000000',
+                     'timezone_type' => 3,
+                     'timezone' => 'Europe/Moscow',
+                  )),
+                )),
+                'PRODUCT_XML_ID' => 'a2df8a8b-54ed-4780-b32e-453aba5898a5',
+                'SUBSCRIBE' => 'N',
+                'RECOMMENDATION' => NULL,
+                'VAT_INCLUDED' => 'Y',
+                'SORT' => '600',
+                'DATE_REFRESH' => NULL,
+                'DISCOUNT_NAME' => NULL,
+                'DISCOUNT_VALUE' => NULL,
+                'DISCOUNT_COUPON' => NULL,
+                'XML_ID' => 'bx_5ec58638efede',
+                'MARKING_CODE_GROUP' => NULL,
+              ),
+               'changedValues' => 
+              array (
+              ),
+               'originalValues' => 
+              array (
+              ),
+               'customFields' => 
+              array (
+                'PRICE' => true,
+              ),
+               'isClone' => false,
+            )),
+             'eventName' => NULL,
+          )),
+        ),
+      )),
+       'internalIndex' => 1,
+       'isClone' => false,
+       'fields' => 
+      Bitrix\Sale\Internals\Fields::__set_state(array(
+         'values' => 
+        array (
+          'ID' => '37200',
+          'LID' => 's1',
+          'MODULE' => 'catalog',
+          'PRODUCT_ID' => '20882',
+          'QUANTITY' => '2.0000',
+          'WEIGHT' => '100.00',
+          'DELAY' => 'N',
+          'CAN_BUY' => 'Y',
+          'PRICE' => 608.0,
+          'CUSTOM_PRICE' => 'Y',
+          'BASE_PRICE' => 676.0,
+          'PRODUCT_PRICE_ID' => '20422',
+          'PRICE_TYPE_ID' => '1',
+          'CURRENCY' => 'RUB',
+          'BARCODE_MULTI' => 'N',
+          'RESERVED' => 'N',
+          'RESERVE_QUANTITY' => NULL,
+          'NAME' => 'Фреза профильная (d8/D28.6/H12.4/L54/R4) HM BOSCH 2608628394',
+          'CATALOG_XML_ID' => '3e11da7d-2c70-4d0d-a47e-85b7034e0a11',
+          'VAT_RATE' => '0.2000',
+          'NOTES' => 'Розничная цена',
+          'DISCOUNT_PRICE' => 0.0,
+          'PRODUCT_PROVIDER_CLASS' => 'CCatalogProductProviderCustom',
+          'CALLBACK_FUNC' => NULL,
+          'ORDER_CALLBACK_FUNC' => NULL,
+          'PAY_CALLBACK_FUNC' => NULL,
+          'CANCEL_CALLBACK_FUNC' => NULL,
+          'DIMENSIONS' => 'a:3:{s:5:"WIDTH";s:1:"0";s:6:"HEIGHT";s:1:"0";s:6:"LENGTH";s:1:"0";}',
+          'TYPE' => NULL,
+          'SET_PARENT_ID' => NULL,
+          'DETAIL_PAGE_URL' => '/catalog/raskhodnye_materialy_3/osnastka_dlya_ruchnykh_frezerov/frezy_po_derevu/freza_profilnaya_d8_d28_6_h12_4_l54_r4_hm_bosch_2608628394/',
+          'FUSER_ID' => '43',
+          'MEASURE_CODE' => '796',
+          'MEASURE_NAME' => 'шт',
+          'ORDER_ID' => NULL,
+          'DATE_INSERT' => 
+          Bitrix\Main\Type\DateTime::__set_state(array(
+             'value' => 
+            DateTime::__set_state(array(
+               'date' => '2020-05-20 22:33:57.000000',
+               'timezone_type' => 3,
+               'timezone' => 'Europe/Moscow',
+            )),
+          )),
+          'DATE_UPDATE' => 
+          Bitrix\Main\Type\DateTime::__set_state(array(
+             'value' => 
+            DateTime::__set_state(array(
+               'date' => '2020-05-21 12:30:46.000000',
+               'timezone_type' => 3,
+               'timezone' => 'Europe/Moscow',
+            )),
+          )),
+          'PRODUCT_XML_ID' => 'e4d13d8c-315e-4074-b988-04c18b258c85',
+          'SUBSCRIBE' => 'N',
+          'RECOMMENDATION' => NULL,
+          'VAT_INCLUDED' => 'Y',
+          'SORT' => '300',
+          'DATE_REFRESH' => NULL,
+          'DISCOUNT_NAME' => NULL,
+          'DISCOUNT_VALUE' => NULL,
+          'DISCOUNT_COUPON' => NULL,
+          'XML_ID' => 'bx_5ec58625b96f2',
+          'MARKING_CODE_GROUP' => NULL,
+        ),
+         'changedValues' => 
+        array (
+        ),
+         'originalValues' => 
+        array (
+        ),
+         'customFields' => 
+        array (
+          'PRICE' => true,
+        ),
+         'isClone' => false,
+      )),
+       'eventName' => NULL,
+    )),
+    'VALUES' => 
+    array (
+      'QUANTITY' => 2.0,
+      'AVAILABLE_QUANTITY' => 2.0,
+      'PRICE_LIST' => 
+      array (
+        37200 => 
+        array (
+          'QUANTITY' => 2.0,
+          'AVAILABLE_QUANTITY' => 2.0,
+          'ITEM_CODE' => 20882,
+          'BASKET_CODE' => 37200,
+        ),
+      ),
+    ),
+    'PREPARED_VALUES' => 
+    array (
+      'QUANTITY' => 2.0,
+    ),
+  ),
+   'parametersLoader' => NULL,
+   'filter' => NULL,
+   'sender' => NULL,
+   'debugMode' => false,
+   'debugInfo' => 
+  array (
+  ),
+   'results' => 
+  array (
+  ),
+   'exceptions' => 
+  array (
+  ),
+))
+    calcActionDiscount::OnGetDiscountResult < call_user_func_array < Bitrix\Main\EventManager::sendToEventHandler < Bitrix\Main\EventManager::send < Bitrix\Main\Event::send
+	/home/bitrix/www/bitrix/modules/main/lib/eventmanager.php:435
+	/home/bitrix/www/bitrix/modules/main/lib/eventmanager.php:371
+	/home/bitrix/www/bitrix/modules/main/lib/event.php:142
+	/home/bitrix/www/bitrix/modules/sale/lib/basket/baserefreshstrategy.php:177
+----------
+Host: kumtigey.ru:443
+Date: 2020-05-21 12:38:21
+Module: 
+Bitrix\Main\Event::__set_state(array(
+   'moduleId' => 'sale',
+   'type' => 'OnSaleBasketItemRefreshData',
+   'parameters' => 
+  array (
+    'ENTITY' => 
+    Bitrix\Sale\BasketItem::__set_state(array(
+       'bundleCollection' => NULL,
+       'propertyCollection' => NULL,
+       'calculatedFields' => 
+      Bitrix\Sale\Internals\Fields::__set_state(array(
+         'values' => 
+        array (
+        ),
+         'changedValues' => 
+        array (
+        ),
+         'originalValues' => 
+        array (
+        ),
+         'customFields' => 
+        array (
+        ),
+         'isClone' => false,
+      )),
+       'provider' => NULL,
+       'internalId' => 37201,
+       'collection' => 
+      Bitrix\Sale\Basket::__set_state(array(
+         'siteId' => 's1',
+         'fUserId' => 43,
+         'order' => NULL,
+         'basketItemIndexMap' => 
+        array (
+          37199 => 0,
+          37200 => 1,
+          37201 => 2,
+          37202 => 3,
+          37203 => 4,
+        ),
+         'maxItemSort' => 600,
+         'isLoadForFUserId' => true,
+         'isSaveExecuting' => false,
+         'index' => 4,
+         'isClone' => false,
+         'anyItemDeleted' => false,
+         'collection' => 
+        array (
+          0 => 
+          Bitrix\Sale\BasketItem::__set_state(array(
+             'bundleCollection' => NULL,
+             'propertyCollection' => NULL,
+             'calculatedFields' => 
+            Bitrix\Sale\Internals\Fields::__set_state(array(
+               'values' => 
+              array (
+              ),
+               'changedValues' => 
+              array (
+              ),
+               'originalValues' => 
+              array (
+              ),
+               'customFields' => 
+              array (
+              ),
+               'isClone' => false,
+            )),
+             'provider' => NULL,
+             'internalId' => 37199,
+             'collection' => NULL,
+             'internalIndex' => 0,
+             'isClone' => false,
+             'fields' => 
+            Bitrix\Sale\Internals\Fields::__set_state(array(
+               'values' => 
+              array (
+                'ID' => '37199',
+                'LID' => 's1',
+                'MODULE' => 'catalog',
+                'PRODUCT_ID' => '20904',
+                'QUANTITY' => '4.0000',
+                'WEIGHT' => '100.00',
+                'DELAY' => 'N',
+                'CAN_BUY' => 'Y',
+                'PRICE' => 713.0,
+                'CUSTOM_PRICE' => 'Y',
+                'BASE_PRICE' => 750.0,
+                'PRODUCT_PRICE_ID' => '20444',
+                'PRICE_TYPE_ID' => '1',
+                'CURRENCY' => 'RUB',
+                'BARCODE_MULTI' => 'N',
+                'RESERVED' => 'N',
+                'RESERVE_QUANTITY' => NULL,
+                'NAME' => 'Фреза радиусная (d8/D20.7/H10.5/L53/R4 мм) HM BOSCH 2608628339',
+                'CATALOG_XML_ID' => '3e11da7d-2c70-4d0d-a47e-85b7034e0a11',
+                'VAT_RATE' => '0.2000',
+                'NOTES' => 'Розничная цена',
+                'DISCOUNT_PRICE' => 0.0,
+                'PRODUCT_PROVIDER_CLASS' => 'CCatalogProductProviderCustom',
+                'CALLBACK_FUNC' => NULL,
+                'ORDER_CALLBACK_FUNC' => NULL,
+                'PAY_CALLBACK_FUNC' => NULL,
+                'CANCEL_CALLBACK_FUNC' => NULL,
+                'DIMENSIONS' => 'a:3:{s:5:"WIDTH";s:1:"0";s:6:"HEIGHT";s:1:"0";s:6:"LENGTH";s:1:"0";}',
+                'TYPE' => NULL,
+                'SET_PARENT_ID' => NULL,
+                'DETAIL_PAGE_URL' => '/catalog/raskhodnye_materialy_3/osnastka_dlya_ruchnykh_frezerov/frezy_po_derevu/freza_radiusnaya_d8_d20_7_h10_5_l53_r4_mm_hm_bosch_2608628339/',
+                'FUSER_ID' => '43',
+                'MEASURE_CODE' => '796',
+                'MEASURE_NAME' => 'шт',
+                'ORDER_ID' => NULL,
+                'DATE_INSERT' => 
+                Bitrix\Main\Type\DateTime::__set_state(array(
+                   'value' => 
+                  DateTime::__set_state(array(
+                     'date' => '2020-05-20 22:33:56.000000',
+                     'timezone_type' => 3,
+                     'timezone' => 'Europe/Moscow',
+                  )),
+                )),
+                'DATE_UPDATE' => 
+                Bitrix\Main\Type\DateTime::__set_state(array(
+                   'value' => 
+                  DateTime::__set_state(array(
+                     'date' => '2020-05-21 12:30:46.000000',
+                     'timezone_type' => 3,
+                     'timezone' => 'Europe/Moscow',
+                  )),
+                )),
+                'PRODUCT_XML_ID' => 'cc5d30e0-7675-4503-baa7-9c918a07ff46',
+                'SUBSCRIBE' => 'N',
+                'RECOMMENDATION' => NULL,
+                'VAT_INCLUDED' => 'Y',
+                'SORT' => '200',
+                'DATE_REFRESH' => NULL,
+                'DISCOUNT_NAME' => NULL,
+                'DISCOUNT_VALUE' => NULL,
+                'DISCOUNT_COUPON' => NULL,
+                'XML_ID' => 'bx_5ec58624e6c8a',
+                'MARKING_CODE_GROUP' => NULL,
+              ),
+               'changedValues' => 
+              array (
+              ),
+               'originalValues' => 
+              array (
+              ),
+               'customFields' => 
+              array (
+                'PRICE' => true,
+              ),
+               'isClone' => false,
+            )),
+             'eventName' => 'SaleBasketItem',
+          )),
+          1 => 
+          Bitrix\Sale\BasketItem::__set_state(array(
+             'bundleCollection' => NULL,
+             'propertyCollection' => NULL,
+             'calculatedFields' => 
+            Bitrix\Sale\Internals\Fields::__set_state(array(
+               'values' => 
+              array (
+              ),
+               'changedValues' => 
+              array (
+              ),
+               'originalValues' => 
+              array (
+              ),
+               'customFields' => 
+              array (
+              ),
+               'isClone' => false,
+            )),
+             'provider' => NULL,
+             'internalId' => 37200,
+             'collection' => NULL,
+             'internalIndex' => 1,
+             'isClone' => false,
+             'fields' => 
+            Bitrix\Sale\Internals\Fields::__set_state(array(
+               'values' => 
+              array (
+                'ID' => '37200',
+                'LID' => 's1',
+                'MODULE' => 'catalog',
+                'PRODUCT_ID' => '20882',
+                'QUANTITY' => '2.0000',
+                'WEIGHT' => '100.00',
+                'DELAY' => 'N',
+                'CAN_BUY' => 'Y',
+                'PRICE' => 608.0,
+                'CUSTOM_PRICE' => 'Y',
+                'BASE_PRICE' => 676.0,
+                'PRODUCT_PRICE_ID' => '20422',
+                'PRICE_TYPE_ID' => '1',
+                'CURRENCY' => 'RUB',
+                'BARCODE_MULTI' => 'N',
+                'RESERVED' => 'N',
+                'RESERVE_QUANTITY' => NULL,
+                'NAME' => 'Фреза профильная (d8/D28.6/H12.4/L54/R4) HM BOSCH 2608628394',
+                'CATALOG_XML_ID' => '3e11da7d-2c70-4d0d-a47e-85b7034e0a11',
+                'VAT_RATE' => '0.2000',
+                'NOTES' => 'Розничная цена',
+                'DISCOUNT_PRICE' => 0.0,
+                'PRODUCT_PROVIDER_CLASS' => 'CCatalogProductProviderCustom',
+                'CALLBACK_FUNC' => NULL,
+                'ORDER_CALLBACK_FUNC' => NULL,
+                'PAY_CALLBACK_FUNC' => NULL,
+                'CANCEL_CALLBACK_FUNC' => NULL,
+                'DIMENSIONS' => 'a:3:{s:5:"WIDTH";s:1:"0";s:6:"HEIGHT";s:1:"0";s:6:"LENGTH";s:1:"0";}',
+                'TYPE' => NULL,
+                'SET_PARENT_ID' => NULL,
+                'DETAIL_PAGE_URL' => '/catalog/raskhodnye_materialy_3/osnastka_dlya_ruchnykh_frezerov/frezy_po_derevu/freza_profilnaya_d8_d28_6_h12_4_l54_r4_hm_bosch_2608628394/',
+                'FUSER_ID' => '43',
+                'MEASURE_CODE' => '796',
+                'MEASURE_NAME' => 'шт',
+                'ORDER_ID' => NULL,
+                'DATE_INSERT' => 
+                Bitrix\Main\Type\DateTime::__set_state(array(
+                   'value' => 
+                  DateTime::__set_state(array(
+                     'date' => '2020-05-20 22:33:57.000000',
+                     'timezone_type' => 3,
+                     'timezone' => 'Europe/Moscow',
+                  )),
+                )),
+                'DATE_UPDATE' => 
+                Bitrix\Main\Type\DateTime::__set_state(array(
+                   'value' => 
+                  DateTime::__set_state(array(
+                     'date' => '2020-05-21 12:30:46.000000',
+                     'timezone_type' => 3,
+                     'timezone' => 'Europe/Moscow',
+                  )),
+                )),
+                'PRODUCT_XML_ID' => 'e4d13d8c-315e-4074-b988-04c18b258c85',
+                'SUBSCRIBE' => 'N',
+                'RECOMMENDATION' => NULL,
+                'VAT_INCLUDED' => 'Y',
+                'SORT' => '300',
+                'DATE_REFRESH' => NULL,
+                'DISCOUNT_NAME' => NULL,
+                'DISCOUNT_VALUE' => NULL,
+                'DISCOUNT_COUPON' => NULL,
+                'XML_ID' => 'bx_5ec58625b96f2',
+                'MARKING_CODE_GROUP' => NULL,
+              ),
+               'changedValues' => 
+              array (
+              ),
+               'originalValues' => 
+              array (
+              ),
+               'customFields' => 
+              array (
+                'PRICE' => true,
+              ),
+               'isClone' => false,
+            )),
+             'eventName' => 'SaleBasketItem',
+          )),
+          2 => NULL,
+          3 => 
+          Bitrix\Sale\BasketItem::__set_state(array(
+             'bundleCollection' => NULL,
+             'propertyCollection' => NULL,
+             'calculatedFields' => 
+            Bitrix\Sale\Internals\Fields::__set_state(array(
+               'values' => 
+              array (
+              ),
+               'changedValues' => 
+              array (
+              ),
+               'originalValues' => 
+              array (
+              ),
+               'customFields' => 
+              array (
+              ),
+               'isClone' => false,
+            )),
+             'provider' => NULL,
+             'internalId' => 37202,
+             'collection' => NULL,
+             'internalIndex' => 3,
+             'isClone' => false,
+             'fields' => 
+            Bitrix\Sale\Internals\Fields::__set_state(array(
+               'values' => 
+              array (
+                'ID' => '37202',
+                'LID' => 's1',
+                'MODULE' => 'catalog',
+                'PRODUCT_ID' => '20910',
+                'QUANTITY' => '1.0000',
+                'WEIGHT' => '100.00',
+                'DELAY' => 'N',
+                'CAN_BUY' => 'Y',
+                'PRICE' => 885.0,
+                'CUSTOM_PRICE' => 'Y',
+                'BASE_PRICE' => 885.0,
+                'PRODUCT_PRICE_ID' => '20450',
+                'PRICE_TYPE_ID' => '1',
+                'CURRENCY' => 'RUB',
+                'BARCODE_MULTI' => 'N',
+                'RESERVED' => 'N',
+                'RESERVE_QUANTITY' => NULL,
+                'NAME' => 'Хвостовик для плоских фрез (d8/L60.3) Expert for Wood BOSCH 2608629390',
+                'CATALOG_XML_ID' => '3e11da7d-2c70-4d0d-a47e-85b7034e0a11',
+                'VAT_RATE' => '0.2000',
+                'NOTES' => 'Розничная цена',
+                'DISCOUNT_PRICE' => 0.0,
+                'PRODUCT_PROVIDER_CLASS' => 'CCatalogProductProviderCustom',
+                'CALLBACK_FUNC' => NULL,
+                'ORDER_CALLBACK_FUNC' => NULL,
+                'PAY_CALLBACK_FUNC' => NULL,
+                'CANCEL_CALLBACK_FUNC' => NULL,
+                'DIMENSIONS' => 'a:3:{s:5:"WIDTH";s:1:"0";s:6:"HEIGHT";s:1:"0";s:6:"LENGTH";s:1:"0";}',
+                'TYPE' => NULL,
+                'SET_PARENT_ID' => NULL,
+                'DETAIL_PAGE_URL' => '/catalog/raskhodnye_materialy_3/osnastka_dlya_ruchnykh_frezerov/frezy_po_derevu/khvostovik_dlya_ploskikh_frez_d8_l60_3_expert_for_wood_bosch_2608629390/',
+                'FUSER_ID' => '43',
+                'MEASURE_CODE' => '796',
+                'MEASURE_NAME' => 'шт',
+                'ORDER_ID' => NULL,
+                'DATE_INSERT' => 
+                Bitrix\Main\Type\DateTime::__set_state(array(
+                   'value' => 
+                  DateTime::__set_state(array(
+                     'date' => '2020-05-20 22:34:16.000000',
+                     'timezone_type' => 3,
+                     'timezone' => 'Europe/Moscow',
+                  )),
+                )),
+                'DATE_UPDATE' => 
+                Bitrix\Main\Type\DateTime::__set_state(array(
+                   'value' => 
+                  DateTime::__set_state(array(
+                     'date' => '2020-05-21 01:02:44.000000',
+                     'timezone_type' => 3,
+                     'timezone' => 'Europe/Moscow',
+                  )),
+                )),
+                'PRODUCT_XML_ID' => 'a2df8a8b-54ed-4780-b32e-453aba5898a5',
+                'SUBSCRIBE' => 'N',
+                'RECOMMENDATION' => NULL,
+                'VAT_INCLUDED' => 'Y',
+                'SORT' => '500',
+                'DATE_REFRESH' => NULL,
+                'DISCOUNT_NAME' => NULL,
+                'DISCOUNT_VALUE' => NULL,
+                'DISCOUNT_COUPON' => NULL,
+                'XML_ID' => 'bx_5ec58638e8ce4',
+                'MARKING_CODE_GROUP' => NULL,
+              ),
+               'changedValues' => 
+              array (
+              ),
+               'originalValues' => 
+              array (
+              ),
+               'customFields' => 
+              array (
+                'PRICE' => true,
+              ),
+               'isClone' => false,
+            )),
+             'eventName' => NULL,
+          )),
+          4 => 
+          Bitrix\Sale\BasketItem::__set_state(array(
+             'bundleCollection' => NULL,
+             'propertyCollection' => NULL,
+             'calculatedFields' => 
+            Bitrix\Sale\Internals\Fields::__set_state(array(
+               'values' => 
+              array (
+              ),
+               'changedValues' => 
+              array (
+              ),
+               'originalValues' => 
+              array (
+              ),
+               'customFields' => 
+              array (
+              ),
+               'isClone' => false,
+            )),
+             'provider' => NULL,
+             'internalId' => 37203,
+             'collection' => NULL,
+             'internalIndex' => 4,
+             'isClone' => false,
+             'fields' => 
+            Bitrix\Sale\Internals\Fields::__set_state(array(
+               'values' => 
+              array (
+                'ID' => '37203',
+                'LID' => 's1',
+                'MODULE' => 'catalog',
+                'PRODUCT_ID' => '20910',
+                'QUANTITY' => '1.0000',
+                'WEIGHT' => '100.00',
+                'DELAY' => 'N',
+                'CAN_BUY' => 'Y',
+                'PRICE' => 885.0,
+                'CUSTOM_PRICE' => 'Y',
+                'BASE_PRICE' => 885.0,
+                'PRODUCT_PRICE_ID' => '20450',
+                'PRICE_TYPE_ID' => '1',
+                'CURRENCY' => 'RUB',
+                'BARCODE_MULTI' => 'N',
+                'RESERVED' => 'N',
+                'RESERVE_QUANTITY' => NULL,
+                'NAME' => 'Хвостовик для плоских фрез (d8/L60.3) Expert for Wood BOSCH 2608629390',
+                'CATALOG_XML_ID' => '3e11da7d-2c70-4d0d-a47e-85b7034e0a11',
+                'VAT_RATE' => '0.2000',
+                'NOTES' => 'Розничная цена',
+                'DISCOUNT_PRICE' => 0.0,
+                'PRODUCT_PROVIDER_CLASS' => 'CCatalogProductProviderCustom',
+                'CALLBACK_FUNC' => NULL,
+                'ORDER_CALLBACK_FUNC' => NULL,
+                'PAY_CALLBACK_FUNC' => NULL,
+                'CANCEL_CALLBACK_FUNC' => NULL,
+                'DIMENSIONS' => 'a:3:{s:5:"WIDTH";s:1:"0";s:6:"HEIGHT";s:1:"0";s:6:"LENGTH";s:1:"0";}',
+                'TYPE' => NULL,
+                'SET_PARENT_ID' => NULL,
+                'DETAIL_PAGE_URL' => '/catalog/raskhodnye_materialy_3/osnastka_dlya_ruchnykh_frezerov/frezy_po_derevu/khvostovik_dlya_ploskikh_frez_d8_l60_3_expert_for_wood_bosch_2608629390/',
+                'FUSER_ID' => '43',
+                'MEASURE_CODE' => '796',
+                'MEASURE_NAME' => 'шт',
+                'ORDER_ID' => NULL,
+                'DATE_INSERT' => 
+                Bitrix\Main\Type\DateTime::__set_state(array(
+                   'value' => 
+                  DateTime::__set_state(array(
+                     'date' => '2020-05-20 22:34:16.000000',
+                     'timezone_type' => 3,
+                     'timezone' => 'Europe/Moscow',
+                  )),
+                )),
+                'DATE_UPDATE' => 
+                Bitrix\Main\Type\DateTime::__set_state(array(
+                   'value' => 
+                  DateTime::__set_state(array(
+                     'date' => '2020-05-21 01:02:44.000000',
+                     'timezone_type' => 3,
+                     'timezone' => 'Europe/Moscow',
+                  )),
+                )),
+                'PRODUCT_XML_ID' => 'a2df8a8b-54ed-4780-b32e-453aba5898a5',
+                'SUBSCRIBE' => 'N',
+                'RECOMMENDATION' => NULL,
+                'VAT_INCLUDED' => 'Y',
+                'SORT' => '600',
+                'DATE_REFRESH' => NULL,
+                'DISCOUNT_NAME' => NULL,
+                'DISCOUNT_VALUE' => NULL,
+                'DISCOUNT_COUPON' => NULL,
+                'XML_ID' => 'bx_5ec58638efede',
+                'MARKING_CODE_GROUP' => NULL,
+              ),
+               'changedValues' => 
+              array (
+              ),
+               'originalValues' => 
+              array (
+              ),
+               'customFields' => 
+              array (
+                'PRICE' => true,
+              ),
+               'isClone' => false,
+            )),
+             'eventName' => NULL,
+          )),
+        ),
+      )),
+       'internalIndex' => 2,
+       'isClone' => false,
+       'fields' => 
+      Bitrix\Sale\Internals\Fields::__set_state(array(
+         'values' => 
+        array (
+          'ID' => '37201',
+          'LID' => 's1',
+          'MODULE' => 'catalog',
+          'PRODUCT_ID' => '20880',
+          'QUANTITY' => '1.0000',
+          'WEIGHT' => '100.00',
+          'DELAY' => 'N',
+          'CAN_BUY' => 'Y',
+          'PRICE' => 422.0,
+          'CUSTOM_PRICE' => 'Y',
+          'BASE_PRICE' => 496.0,
+          'PRODUCT_PRICE_ID' => '20420',
+          'PRICE_TYPE_ID' => '1',
+          'CURRENCY' => 'RUB',
+          'BARCODE_MULTI' => 'N',
+          'RESERVED' => 'N',
+          'RESERVE_QUANTITY' => NULL,
+          'NAME' => 'Фреза кромочная фасонная (d8/D12.7/H12.4/L46/R2.4) HM BOSCH 2608628398',
+          'CATALOG_XML_ID' => '3e11da7d-2c70-4d0d-a47e-85b7034e0a11',
+          'VAT_RATE' => '0.2000',
+          'NOTES' => 'Розничная цена',
+          'DISCOUNT_PRICE' => 0.0,
+          'PRODUCT_PROVIDER_CLASS' => 'CCatalogProductProviderCustom',
+          'CALLBACK_FUNC' => NULL,
+          'ORDER_CALLBACK_FUNC' => NULL,
+          'PAY_CALLBACK_FUNC' => NULL,
+          'CANCEL_CALLBACK_FUNC' => NULL,
+          'DIMENSIONS' => 'a:3:{s:5:"WIDTH";s:1:"0";s:6:"HEIGHT";s:1:"0";s:6:"LENGTH";s:1:"0";}',
+          'TYPE' => NULL,
+          'SET_PARENT_ID' => NULL,
+          'DETAIL_PAGE_URL' => '/catalog/raskhodnye_materialy_3/osnastka_dlya_ruchnykh_frezerov/frezy_po_derevu/freza_kromochnaya_fasonnaya_d8_d12_7_h12_4_l46_r2_4_hm_bosch_2608628398/',
+          'FUSER_ID' => '43',
+          'MEASURE_CODE' => '796',
+          'MEASURE_NAME' => 'шт',
+          'ORDER_ID' => NULL,
+          'DATE_INSERT' => 
+          Bitrix\Main\Type\DateTime::__set_state(array(
+             'value' => 
+            DateTime::__set_state(array(
+               'date' => '2020-05-20 22:33:58.000000',
+               'timezone_type' => 3,
+               'timezone' => 'Europe/Moscow',
+            )),
+          )),
+          'DATE_UPDATE' => 
+          Bitrix\Main\Type\DateTime::__set_state(array(
+             'value' => 
+            DateTime::__set_state(array(
+               'date' => '2020-05-21 12:30:46.000000',
+               'timezone_type' => 3,
+               'timezone' => 'Europe/Moscow',
+            )),
+          )),
+          'PRODUCT_XML_ID' => 'd1bb2bfb-6a91-48cc-a3aa-4499f46cc65b',
+          'SUBSCRIBE' => 'N',
+          'RECOMMENDATION' => NULL,
+          'VAT_INCLUDED' => 'Y',
+          'SORT' => '400',
+          'DATE_REFRESH' => NULL,
+          'DISCOUNT_NAME' => NULL,
+          'DISCOUNT_VALUE' => NULL,
+          'DISCOUNT_COUPON' => NULL,
+          'XML_ID' => 'bx_5ec5862661870',
+          'MARKING_CODE_GROUP' => NULL,
+        ),
+         'changedValues' => 
+        array (
+        ),
+         'originalValues' => 
+        array (
+        ),
+         'customFields' => 
+        array (
+          'PRICE' => true,
+        ),
+         'isClone' => false,
+      )),
+       'eventName' => NULL,
+    )),
+    'VALUES' => 
+    array (
+      'QUANTITY' => 1.0,
+      'AVAILABLE_QUANTITY' => 1.0,
+      'PRICE_LIST' => 
+      array (
+        37201 => 
+        array (
+          'QUANTITY' => 1.0,
+          'AVAILABLE_QUANTITY' => 1.0,
+          'ITEM_CODE' => 20880,
+          'BASKET_CODE' => 37201,
+        ),
+      ),
+    ),
+    'PREPARED_VALUES' => 
+    array (
+      'QUANTITY' => 1.0,
+    ),
+  ),
+   'parametersLoader' => NULL,
+   'filter' => NULL,
+   'sender' => NULL,
+   'debugMode' => false,
+   'debugInfo' => 
+  array (
+  ),
+   'results' => 
+  array (
+  ),
+   'exceptions' => 
+  array (
+  ),
+))
+    calcActionDiscount::OnGetDiscountResult < call_user_func_array < Bitrix\Main\EventManager::sendToEventHandler < Bitrix\Main\EventManager::send < Bitrix\Main\Event::send
+	/home/bitrix/www/bitrix/modules/main/lib/eventmanager.php:435
+	/home/bitrix/www/bitrix/modules/main/lib/eventmanager.php:371
+	/home/bitrix/www/bitrix/modules/main/lib/event.php:142
+	/home/bitrix/www/bitrix/modules/sale/lib/basket/baserefreshstrategy.php:177
+----------
+Host: kumtigey.ru:443
+Date: 2020-05-21 12:38:21
+Module: 
+Bitrix\Main\Event::__set_state(array(
+   'moduleId' => 'sale',
+   'type' => 'OnSaleBasketItemRefreshData',
+   'parameters' => 
+  array (
+    'ENTITY' => 
+    Bitrix\Sale\BasketItem::__set_state(array(
+       'bundleCollection' => NULL,
+       'propertyCollection' => NULL,
+       'calculatedFields' => 
+      Bitrix\Sale\Internals\Fields::__set_state(array(
+         'values' => 
+        array (
+        ),
+         'changedValues' => 
+        array (
+        ),
+         'originalValues' => 
+        array (
+        ),
+         'customFields' => 
+        array (
+        ),
+         'isClone' => false,
+      )),
+       'provider' => NULL,
+       'internalId' => 37202,
+       'collection' => 
+      Bitrix\Sale\Basket::__set_state(array(
+         'siteId' => 's1',
+         'fUserId' => 43,
+         'order' => NULL,
+         'basketItemIndexMap' => 
+        array (
+          37199 => 0,
+          37200 => 1,
+          37201 => 2,
+          37202 => 3,
+          37203 => 4,
+        ),
+         'maxItemSort' => 600,
+         'isLoadForFUserId' => true,
+         'isSaveExecuting' => false,
+         'index' => 4,
+         'isClone' => false,
+         'anyItemDeleted' => false,
+         'collection' => 
+        array (
+          0 => 
+          Bitrix\Sale\BasketItem::__set_state(array(
+             'bundleCollection' => NULL,
+             'propertyCollection' => NULL,
+             'calculatedFields' => 
+            Bitrix\Sale\Internals\Fields::__set_state(array(
+               'values' => 
+              array (
+              ),
+               'changedValues' => 
+              array (
+              ),
+               'originalValues' => 
+              array (
+              ),
+               'customFields' => 
+              array (
+              ),
+               'isClone' => false,
+            )),
+             'provider' => NULL,
+             'internalId' => 37199,
+             'collection' => NULL,
+             'internalIndex' => 0,
+             'isClone' => false,
+             'fields' => 
+            Bitrix\Sale\Internals\Fields::__set_state(array(
+               'values' => 
+              array (
+                'ID' => '37199',
+                'LID' => 's1',
+                'MODULE' => 'catalog',
+                'PRODUCT_ID' => '20904',
+                'QUANTITY' => '4.0000',
+                'WEIGHT' => '100.00',
+                'DELAY' => 'N',
+                'CAN_BUY' => 'Y',
+                'PRICE' => 713.0,
+                'CUSTOM_PRICE' => 'Y',
+                'BASE_PRICE' => 750.0,
+                'PRODUCT_PRICE_ID' => '20444',
+                'PRICE_TYPE_ID' => '1',
+                'CURRENCY' => 'RUB',
+                'BARCODE_MULTI' => 'N',
+                'RESERVED' => 'N',
+                'RESERVE_QUANTITY' => NULL,
+                'NAME' => 'Фреза радиусная (d8/D20.7/H10.5/L53/R4 мм) HM BOSCH 2608628339',
+                'CATALOG_XML_ID' => '3e11da7d-2c70-4d0d-a47e-85b7034e0a11',
+                'VAT_RATE' => '0.2000',
+                'NOTES' => 'Розничная цена',
+                'DISCOUNT_PRICE' => 0.0,
+                'PRODUCT_PROVIDER_CLASS' => 'CCatalogProductProviderCustom',
+                'CALLBACK_FUNC' => NULL,
+                'ORDER_CALLBACK_FUNC' => NULL,
+                'PAY_CALLBACK_FUNC' => NULL,
+                'CANCEL_CALLBACK_FUNC' => NULL,
+                'DIMENSIONS' => 'a:3:{s:5:"WIDTH";s:1:"0";s:6:"HEIGHT";s:1:"0";s:6:"LENGTH";s:1:"0";}',
+                'TYPE' => NULL,
+                'SET_PARENT_ID' => NULL,
+                'DETAIL_PAGE_URL' => '/catalog/raskhodnye_materialy_3/osnastka_dlya_ruchnykh_frezerov/frezy_po_derevu/freza_radiusnaya_d8_d20_7_h10_5_l53_r4_mm_hm_bosch_2608628339/',
+                'FUSER_ID' => '43',
+                'MEASURE_CODE' => '796',
+                'MEASURE_NAME' => 'шт',
+                'ORDER_ID' => NULL,
+                'DATE_INSERT' => 
+                Bitrix\Main\Type\DateTime::__set_state(array(
+                   'value' => 
+                  DateTime::__set_state(array(
+                     'date' => '2020-05-20 22:33:56.000000',
+                     'timezone_type' => 3,
+                     'timezone' => 'Europe/Moscow',
+                  )),
+                )),
+                'DATE_UPDATE' => 
+                Bitrix\Main\Type\DateTime::__set_state(array(
+                   'value' => 
+                  DateTime::__set_state(array(
+                     'date' => '2020-05-21 12:30:46.000000',
+                     'timezone_type' => 3,
+                     'timezone' => 'Europe/Moscow',
+                  )),
+                )),
+                'PRODUCT_XML_ID' => 'cc5d30e0-7675-4503-baa7-9c918a07ff46',
+                'SUBSCRIBE' => 'N',
+                'RECOMMENDATION' => NULL,
+                'VAT_INCLUDED' => 'Y',
+                'SORT' => '200',
+                'DATE_REFRESH' => NULL,
+                'DISCOUNT_NAME' => NULL,
+                'DISCOUNT_VALUE' => NULL,
+                'DISCOUNT_COUPON' => NULL,
+                'XML_ID' => 'bx_5ec58624e6c8a',
+                'MARKING_CODE_GROUP' => NULL,
+              ),
+               'changedValues' => 
+              array (
+              ),
+               'originalValues' => 
+              array (
+              ),
+               'customFields' => 
+              array (
+                'PRICE' => true,
+              ),
+               'isClone' => false,
+            )),
+             'eventName' => 'SaleBasketItem',
+          )),
+          1 => 
+          Bitrix\Sale\BasketItem::__set_state(array(
+             'bundleCollection' => NULL,
+             'propertyCollection' => NULL,
+             'calculatedFields' => 
+            Bitrix\Sale\Internals\Fields::__set_state(array(
+               'values' => 
+              array (
+              ),
+               'changedValues' => 
+              array (
+              ),
+               'originalValues' => 
+              array (
+              ),
+               'customFields' => 
+              array (
+              ),
+               'isClone' => false,
+            )),
+             'provider' => NULL,
+             'internalId' => 37200,
+             'collection' => NULL,
+             'internalIndex' => 1,
+             'isClone' => false,
+             'fields' => 
+            Bitrix\Sale\Internals\Fields::__set_state(array(
+               'values' => 
+              array (
+                'ID' => '37200',
+                'LID' => 's1',
+                'MODULE' => 'catalog',
+                'PRODUCT_ID' => '20882',
+                'QUANTITY' => '2.0000',
+                'WEIGHT' => '100.00',
+                'DELAY' => 'N',
+                'CAN_BUY' => 'Y',
+                'PRICE' => 608.0,
+                'CUSTOM_PRICE' => 'Y',
+                'BASE_PRICE' => 676.0,
+                'PRODUCT_PRICE_ID' => '20422',
+                'PRICE_TYPE_ID' => '1',
+                'CURRENCY' => 'RUB',
+                'BARCODE_MULTI' => 'N',
+                'RESERVED' => 'N',
+                'RESERVE_QUANTITY' => NULL,
+                'NAME' => 'Фреза профильная (d8/D28.6/H12.4/L54/R4) HM BOSCH 2608628394',
+                'CATALOG_XML_ID' => '3e11da7d-2c70-4d0d-a47e-85b7034e0a11',
+                'VAT_RATE' => '0.2000',
+                'NOTES' => 'Розничная цена',
+                'DISCOUNT_PRICE' => 0.0,
+                'PRODUCT_PROVIDER_CLASS' => 'CCatalogProductProviderCustom',
+                'CALLBACK_FUNC' => NULL,
+                'ORDER_CALLBACK_FUNC' => NULL,
+                'PAY_CALLBACK_FUNC' => NULL,
+                'CANCEL_CALLBACK_FUNC' => NULL,
+                'DIMENSIONS' => 'a:3:{s:5:"WIDTH";s:1:"0";s:6:"HEIGHT";s:1:"0";s:6:"LENGTH";s:1:"0";}',
+                'TYPE' => NULL,
+                'SET_PARENT_ID' => NULL,
+                'DETAIL_PAGE_URL' => '/catalog/raskhodnye_materialy_3/osnastka_dlya_ruchnykh_frezerov/frezy_po_derevu/freza_profilnaya_d8_d28_6_h12_4_l54_r4_hm_bosch_2608628394/',
+                'FUSER_ID' => '43',
+                'MEASURE_CODE' => '796',
+                'MEASURE_NAME' => 'шт',
+                'ORDER_ID' => NULL,
+                'DATE_INSERT' => 
+                Bitrix\Main\Type\DateTime::__set_state(array(
+                   'value' => 
+                  DateTime::__set_state(array(
+                     'date' => '2020-05-20 22:33:57.000000',
+                     'timezone_type' => 3,
+                     'timezone' => 'Europe/Moscow',
+                  )),
+                )),
+                'DATE_UPDATE' => 
+                Bitrix\Main\Type\DateTime::__set_state(array(
+                   'value' => 
+                  DateTime::__set_state(array(
+                     'date' => '2020-05-21 12:30:46.000000',
+                     'timezone_type' => 3,
+                     'timezone' => 'Europe/Moscow',
+                  )),
+                )),
+                'PRODUCT_XML_ID' => 'e4d13d8c-315e-4074-b988-04c18b258c85',
+                'SUBSCRIBE' => 'N',
+                'RECOMMENDATION' => NULL,
+                'VAT_INCLUDED' => 'Y',
+                'SORT' => '300',
+                'DATE_REFRESH' => NULL,
+                'DISCOUNT_NAME' => NULL,
+                'DISCOUNT_VALUE' => NULL,
+                'DISCOUNT_COUPON' => NULL,
+                'XML_ID' => 'bx_5ec58625b96f2',
+                'MARKING_CODE_GROUP' => NULL,
+              ),
+               'changedValues' => 
+              array (
+              ),
+               'originalValues' => 
+              array (
+              ),
+               'customFields' => 
+              array (
+                'PRICE' => true,
+              ),
+               'isClone' => false,
+            )),
+             'eventName' => 'SaleBasketItem',
+          )),
+          2 => 
+          Bitrix\Sale\BasketItem::__set_state(array(
+             'bundleCollection' => NULL,
+             'propertyCollection' => NULL,
+             'calculatedFields' => 
+            Bitrix\Sale\Internals\Fields::__set_state(array(
+               'values' => 
+              array (
+              ),
+               'changedValues' => 
+              array (
+              ),
+               'originalValues' => 
+              array (
+              ),
+               'customFields' => 
+              array (
+              ),
+               'isClone' => false,
+            )),
+             'provider' => NULL,
+             'internalId' => 37201,
+             'collection' => NULL,
+             'internalIndex' => 2,
+             'isClone' => false,
+             'fields' => 
+            Bitrix\Sale\Internals\Fields::__set_state(array(
+               'values' => 
+              array (
+                'ID' => '37201',
+                'LID' => 's1',
+                'MODULE' => 'catalog',
+                'PRODUCT_ID' => '20880',
+                'QUANTITY' => '1.0000',
+                'WEIGHT' => '100.00',
+                'DELAY' => 'N',
+                'CAN_BUY' => 'Y',
+                'PRICE' => 422.0,
+                'CUSTOM_PRICE' => 'Y',
+                'BASE_PRICE' => 496.0,
+                'PRODUCT_PRICE_ID' => '20420',
+                'PRICE_TYPE_ID' => '1',
+                'CURRENCY' => 'RUB',
+                'BARCODE_MULTI' => 'N',
+                'RESERVED' => 'N',
+                'RESERVE_QUANTITY' => NULL,
+                'NAME' => 'Фреза кромочная фасонная (d8/D12.7/H12.4/L46/R2.4) HM BOSCH 2608628398',
+                'CATALOG_XML_ID' => '3e11da7d-2c70-4d0d-a47e-85b7034e0a11',
+                'VAT_RATE' => '0.2000',
+                'NOTES' => 'Розничная цена',
+                'DISCOUNT_PRICE' => 0.0,
+                'PRODUCT_PROVIDER_CLASS' => 'CCatalogProductProviderCustom',
+                'CALLBACK_FUNC' => NULL,
+                'ORDER_CALLBACK_FUNC' => NULL,
+                'PAY_CALLBACK_FUNC' => NULL,
+                'CANCEL_CALLBACK_FUNC' => NULL,
+                'DIMENSIONS' => 'a:3:{s:5:"WIDTH";s:1:"0";s:6:"HEIGHT";s:1:"0";s:6:"LENGTH";s:1:"0";}',
+                'TYPE' => NULL,
+                'SET_PARENT_ID' => NULL,
+                'DETAIL_PAGE_URL' => '/catalog/raskhodnye_materialy_3/osnastka_dlya_ruchnykh_frezerov/frezy_po_derevu/freza_kromochnaya_fasonnaya_d8_d12_7_h12_4_l46_r2_4_hm_bosch_2608628398/',
+                'FUSER_ID' => '43',
+                'MEASURE_CODE' => '796',
+                'MEASURE_NAME' => 'шт',
+                'ORDER_ID' => NULL,
+                'DATE_INSERT' => 
+                Bitrix\Main\Type\DateTime::__set_state(array(
+                   'value' => 
+                  DateTime::__set_state(array(
+                     'date' => '2020-05-20 22:33:58.000000',
+                     'timezone_type' => 3,
+                     'timezone' => 'Europe/Moscow',
+                  )),
+                )),
+                'DATE_UPDATE' => 
+                Bitrix\Main\Type\DateTime::__set_state(array(
+                   'value' => 
+                  DateTime::__set_state(array(
+                     'date' => '2020-05-21 12:30:46.000000',
+                     'timezone_type' => 3,
+                     'timezone' => 'Europe/Moscow',
+                  )),
+                )),
+                'PRODUCT_XML_ID' => 'd1bb2bfb-6a91-48cc-a3aa-4499f46cc65b',
+                'SUBSCRIBE' => 'N',
+                'RECOMMENDATION' => NULL,
+                'VAT_INCLUDED' => 'Y',
+                'SORT' => '400',
+                'DATE_REFRESH' => NULL,
+                'DISCOUNT_NAME' => NULL,
+                'DISCOUNT_VALUE' => NULL,
+                'DISCOUNT_COUPON' => NULL,
+                'XML_ID' => 'bx_5ec5862661870',
+                'MARKING_CODE_GROUP' => NULL,
+              ),
+               'changedValues' => 
+              array (
+              ),
+               'originalValues' => 
+              array (
+              ),
+               'customFields' => 
+              array (
+                'PRICE' => true,
+              ),
+               'isClone' => false,
+            )),
+             'eventName' => 'SaleBasketItem',
+          )),
+          3 => NULL,
+          4 => 
+          Bitrix\Sale\BasketItem::__set_state(array(
+             'bundleCollection' => NULL,
+             'propertyCollection' => NULL,
+             'calculatedFields' => 
+            Bitrix\Sale\Internals\Fields::__set_state(array(
+               'values' => 
+              array (
+              ),
+               'changedValues' => 
+              array (
+              ),
+               'originalValues' => 
+              array (
+              ),
+               'customFields' => 
+              array (
+              ),
+               'isClone' => false,
+            )),
+             'provider' => NULL,
+             'internalId' => 37203,
+             'collection' => NULL,
+             'internalIndex' => 4,
+             'isClone' => false,
+             'fields' => 
+            Bitrix\Sale\Internals\Fields::__set_state(array(
+               'values' => 
+              array (
+                'ID' => '37203',
+                'LID' => 's1',
+                'MODULE' => 'catalog',
+                'PRODUCT_ID' => '20910',
+                'QUANTITY' => '1.0000',
+                'WEIGHT' => '100.00',
+                'DELAY' => 'N',
+                'CAN_BUY' => 'Y',
+                'PRICE' => 885.0,
+                'CUSTOM_PRICE' => 'Y',
+                'BASE_PRICE' => 885.0,
+                'PRODUCT_PRICE_ID' => '20450',
+                'PRICE_TYPE_ID' => '1',
+                'CURRENCY' => 'RUB',
+                'BARCODE_MULTI' => 'N',
+                'RESERVED' => 'N',
+                'RESERVE_QUANTITY' => NULL,
+                'NAME' => 'Хвостовик для плоских фрез (d8/L60.3) Expert for Wood BOSCH 2608629390',
+                'CATALOG_XML_ID' => '3e11da7d-2c70-4d0d-a47e-85b7034e0a11',
+                'VAT_RATE' => '0.2000',
+                'NOTES' => 'Розничная цена',
+                'DISCOUNT_PRICE' => 0.0,
+                'PRODUCT_PROVIDER_CLASS' => 'CCatalogProductProviderCustom',
+                'CALLBACK_FUNC' => NULL,
+                'ORDER_CALLBACK_FUNC' => NULL,
+                'PAY_CALLBACK_FUNC' => NULL,
+                'CANCEL_CALLBACK_FUNC' => NULL,
+                'DIMENSIONS' => 'a:3:{s:5:"WIDTH";s:1:"0";s:6:"HEIGHT";s:1:"0";s:6:"LENGTH";s:1:"0";}',
+                'TYPE' => NULL,
+                'SET_PARENT_ID' => NULL,
+                'DETAIL_PAGE_URL' => '/catalog/raskhodnye_materialy_3/osnastka_dlya_ruchnykh_frezerov/frezy_po_derevu/khvostovik_dlya_ploskikh_frez_d8_l60_3_expert_for_wood_bosch_2608629390/',
+                'FUSER_ID' => '43',
+                'MEASURE_CODE' => '796',
+                'MEASURE_NAME' => 'шт',
+                'ORDER_ID' => NULL,
+                'DATE_INSERT' => 
+                Bitrix\Main\Type\DateTime::__set_state(array(
+                   'value' => 
+                  DateTime::__set_state(array(
+                     'date' => '2020-05-20 22:34:16.000000',
+                     'timezone_type' => 3,
+                     'timezone' => 'Europe/Moscow',
+                  )),
+                )),
+                'DATE_UPDATE' => 
+                Bitrix\Main\Type\DateTime::__set_state(array(
+                   'value' => 
+                  DateTime::__set_state(array(
+                     'date' => '2020-05-21 01:02:44.000000',
+                     'timezone_type' => 3,
+                     'timezone' => 'Europe/Moscow',
+                  )),
+                )),
+                'PRODUCT_XML_ID' => 'a2df8a8b-54ed-4780-b32e-453aba5898a5',
+                'SUBSCRIBE' => 'N',
+                'RECOMMENDATION' => NULL,
+                'VAT_INCLUDED' => 'Y',
+                'SORT' => '600',
+                'DATE_REFRESH' => NULL,
+                'DISCOUNT_NAME' => NULL,
+                'DISCOUNT_VALUE' => NULL,
+                'DISCOUNT_COUPON' => NULL,
+                'XML_ID' => 'bx_5ec58638efede',
+                'MARKING_CODE_GROUP' => NULL,
+              ),
+               'changedValues' => 
+              array (
+              ),
+               'originalValues' => 
+              array (
+              ),
+               'customFields' => 
+              array (
+                'PRICE' => true,
+              ),
+               'isClone' => false,
+            )),
+             'eventName' => NULL,
+          )),
+        ),
+      )),
+       'internalIndex' => 3,
+       'isClone' => false,
+       'fields' => 
+      Bitrix\Sale\Internals\Fields::__set_state(array(
+         'values' => 
+        array (
+          'ID' => '37202',
+          'LID' => 's1',
+          'MODULE' => 'catalog',
+          'PRODUCT_ID' => '20910',
+          'QUANTITY' => '1.0000',
+          'WEIGHT' => '100.00',
+          'DELAY' => 'N',
+          'CAN_BUY' => 'Y',
+          'PRICE' => 885.0,
+          'CUSTOM_PRICE' => 'Y',
+          'BASE_PRICE' => 885.0,
+          'PRODUCT_PRICE_ID' => '20450',
+          'PRICE_TYPE_ID' => '1',
+          'CURRENCY' => 'RUB',
+          'BARCODE_MULTI' => 'N',
+          'RESERVED' => 'N',
+          'RESERVE_QUANTITY' => NULL,
+          'NAME' => 'Хвостовик для плоских фрез (d8/L60.3) Expert for Wood BOSCH 2608629390',
+          'CATALOG_XML_ID' => '3e11da7d-2c70-4d0d-a47e-85b7034e0a11',
+          'VAT_RATE' => '0.2000',
+          'NOTES' => 'Розничная цена',
+          'DISCOUNT_PRICE' => 0.0,
+          'PRODUCT_PROVIDER_CLASS' => 'CCatalogProductProviderCustom',
+          'CALLBACK_FUNC' => NULL,
+          'ORDER_CALLBACK_FUNC' => NULL,
+          'PAY_CALLBACK_FUNC' => NULL,
+          'CANCEL_CALLBACK_FUNC' => NULL,
+          'DIMENSIONS' => 'a:3:{s:5:"WIDTH";s:1:"0";s:6:"HEIGHT";s:1:"0";s:6:"LENGTH";s:1:"0";}',
+          'TYPE' => NULL,
+          'SET_PARENT_ID' => NULL,
+          'DETAIL_PAGE_URL' => '/catalog/raskhodnye_materialy_3/osnastka_dlya_ruchnykh_frezerov/frezy_po_derevu/khvostovik_dlya_ploskikh_frez_d8_l60_3_expert_for_wood_bosch_2608629390/',
+          'FUSER_ID' => '43',
+          'MEASURE_CODE' => '796',
+          'MEASURE_NAME' => 'шт',
+          'ORDER_ID' => NULL,
+          'DATE_INSERT' => 
+          Bitrix\Main\Type\DateTime::__set_state(array(
+             'value' => 
+            DateTime::__set_state(array(
+               'date' => '2020-05-20 22:34:16.000000',
+               'timezone_type' => 3,
+               'timezone' => 'Europe/Moscow',
+            )),
+          )),
+          'DATE_UPDATE' => 
+          Bitrix\Main\Type\DateTime::__set_state(array(
+             'value' => 
+            DateTime::__set_state(array(
+               'date' => '2020-05-21 01:02:44.000000',
+               'timezone_type' => 3,
+               'timezone' => 'Europe/Moscow',
+            )),
+          )),
+          'PRODUCT_XML_ID' => 'a2df8a8b-54ed-4780-b32e-453aba5898a5',
+          'SUBSCRIBE' => 'N',
+          'RECOMMENDATION' => NULL,
+          'VAT_INCLUDED' => 'Y',
+          'SORT' => '500',
+          'DATE_REFRESH' => NULL,
+          'DISCOUNT_NAME' => NULL,
+          'DISCOUNT_VALUE' => NULL,
+          'DISCOUNT_COUPON' => NULL,
+          'XML_ID' => 'bx_5ec58638e8ce4',
+          'MARKING_CODE_GROUP' => NULL,
+        ),
+         'changedValues' => 
+        array (
+        ),
+         'originalValues' => 
+        array (
+        ),
+         'customFields' => 
+        array (
+          'PRICE' => true,
+        ),
+         'isClone' => false,
+      )),
+       'eventName' => NULL,
+    )),
+    'VALUES' => 
+    array (
+      'QUANTITY' => 1.0,
+      'AVAILABLE_QUANTITY' => 1.0,
+      'PRICE_LIST' => 
+      array (
+        37202 => 
+        array (
+          'QUANTITY' => 1.0,
+          'AVAILABLE_QUANTITY' => 1.0,
+          'ITEM_CODE' => 20910,
+          'BASKET_CODE' => 37202,
+        ),
+        37203 => 
+        array (
+          'QUANTITY' => 1.0,
+          'AVAILABLE_QUANTITY' => 1.0,
+          'ITEM_CODE' => 20910,
+          'BASKET_CODE' => 37203,
+        ),
+      ),
+    ),
+    'PREPARED_VALUES' => 
+    array (
+      'QUANTITY' => 1.0,
+    ),
+  ),
+   'parametersLoader' => NULL,
+   'filter' => NULL,
+   'sender' => NULL,
+   'debugMode' => false,
+   'debugInfo' => 
+  array (
+  ),
+   'results' => 
+  array (
+  ),
+   'exceptions' => 
+  array (
+  ),
+))
+    calcActionDiscount::OnGetDiscountResult < call_user_func_array < Bitrix\Main\EventManager::sendToEventHandler < Bitrix\Main\EventManager::send < Bitrix\Main\Event::send
+	/home/bitrix/www/bitrix/modules/main/lib/eventmanager.php:435
+	/home/bitrix/www/bitrix/modules/main/lib/eventmanager.php:371
+	/home/bitrix/www/bitrix/modules/main/lib/event.php:142
+	/home/bitrix/www/bitrix/modules/sale/lib/basket/baserefreshstrategy.php:177
+----------
+Host: kumtigey.ru:443
+Date: 2020-05-21 12:38:21
+Module: 
+Bitrix\Main\Event::__set_state(array(
+   'moduleId' => 'sale',
+   'type' => 'OnSaleBasketItemRefreshData',
+   'parameters' => 
+  array (
+    'ENTITY' => 
+    Bitrix\Sale\BasketItem::__set_state(array(
+       'bundleCollection' => NULL,
+       'propertyCollection' => NULL,
+       'calculatedFields' => 
+      Bitrix\Sale\Internals\Fields::__set_state(array(
+         'values' => 
+        array (
+        ),
+         'changedValues' => 
+        array (
+        ),
+         'originalValues' => 
+        array (
+        ),
+         'customFields' => 
+        array (
+        ),
+         'isClone' => false,
+      )),
+       'provider' => NULL,
+       'internalId' => 37203,
+       'collection' => 
+      Bitrix\Sale\Basket::__set_state(array(
+         'siteId' => 's1',
+         'fUserId' => 43,
+         'order' => NULL,
+         'basketItemIndexMap' => 
+        array (
+          37199 => 0,
+          37200 => 1,
+          37201 => 2,
+          37202 => 3,
+          37203 => 4,
+        ),
+         'maxItemSort' => 600,
+         'isLoadForFUserId' => true,
+         'isSaveExecuting' => false,
+         'index' => 4,
+         'isClone' => false,
+         'anyItemDeleted' => false,
+         'collection' => 
+        array (
+          0 => 
+          Bitrix\Sale\BasketItem::__set_state(array(
+             'bundleCollection' => NULL,
+             'propertyCollection' => NULL,
+             'calculatedFields' => 
+            Bitrix\Sale\Internals\Fields::__set_state(array(
+               'values' => 
+              array (
+              ),
+               'changedValues' => 
+              array (
+              ),
+               'originalValues' => 
+              array (
+              ),
+               'customFields' => 
+              array (
+              ),
+               'isClone' => false,
+            )),
+             'provider' => NULL,
+             'internalId' => 37199,
+             'collection' => NULL,
+             'internalIndex' => 0,
+             'isClone' => false,
+             'fields' => 
+            Bitrix\Sale\Internals\Fields::__set_state(array(
+               'values' => 
+              array (
+                'ID' => '37199',
+                'LID' => 's1',
+                'MODULE' => 'catalog',
+                'PRODUCT_ID' => '20904',
+                'QUANTITY' => '4.0000',
+                'WEIGHT' => '100.00',
+                'DELAY' => 'N',
+                'CAN_BUY' => 'Y',
+                'PRICE' => 713.0,
+                'CUSTOM_PRICE' => 'Y',
+                'BASE_PRICE' => 750.0,
+                'PRODUCT_PRICE_ID' => '20444',
+                'PRICE_TYPE_ID' => '1',
+                'CURRENCY' => 'RUB',
+                'BARCODE_MULTI' => 'N',
+                'RESERVED' => 'N',
+                'RESERVE_QUANTITY' => NULL,
+                'NAME' => 'Фреза радиусная (d8/D20.7/H10.5/L53/R4 мм) HM BOSCH 2608628339',
+                'CATALOG_XML_ID' => '3e11da7d-2c70-4d0d-a47e-85b7034e0a11',
+                'VAT_RATE' => '0.2000',
+                'NOTES' => 'Розничная цена',
+                'DISCOUNT_PRICE' => 0.0,
+                'PRODUCT_PROVIDER_CLASS' => 'CCatalogProductProviderCustom',
+                'CALLBACK_FUNC' => NULL,
+                'ORDER_CALLBACK_FUNC' => NULL,
+                'PAY_CALLBACK_FUNC' => NULL,
+                'CANCEL_CALLBACK_FUNC' => NULL,
+                'DIMENSIONS' => 'a:3:{s:5:"WIDTH";s:1:"0";s:6:"HEIGHT";s:1:"0";s:6:"LENGTH";s:1:"0";}',
+                'TYPE' => NULL,
+                'SET_PARENT_ID' => NULL,
+                'DETAIL_PAGE_URL' => '/catalog/raskhodnye_materialy_3/osnastka_dlya_ruchnykh_frezerov/frezy_po_derevu/freza_radiusnaya_d8_d20_7_h10_5_l53_r4_mm_hm_bosch_2608628339/',
+                'FUSER_ID' => '43',
+                'MEASURE_CODE' => '796',
+                'MEASURE_NAME' => 'шт',
+                'ORDER_ID' => NULL,
+                'DATE_INSERT' => 
+                Bitrix\Main\Type\DateTime::__set_state(array(
+                   'value' => 
+                  DateTime::__set_state(array(
+                     'date' => '2020-05-20 22:33:56.000000',
+                     'timezone_type' => 3,
+                     'timezone' => 'Europe/Moscow',
+                  )),
+                )),
+                'DATE_UPDATE' => 
+                Bitrix\Main\Type\DateTime::__set_state(array(
+                   'value' => 
+                  DateTime::__set_state(array(
+                     'date' => '2020-05-21 12:30:46.000000',
+                     'timezone_type' => 3,
+                     'timezone' => 'Europe/Moscow',
+                  )),
+                )),
+                'PRODUCT_XML_ID' => 'cc5d30e0-7675-4503-baa7-9c918a07ff46',
+                'SUBSCRIBE' => 'N',
+                'RECOMMENDATION' => NULL,
+                'VAT_INCLUDED' => 'Y',
+                'SORT' => '200',
+                'DATE_REFRESH' => NULL,
+                'DISCOUNT_NAME' => NULL,
+                'DISCOUNT_VALUE' => NULL,
+                'DISCOUNT_COUPON' => NULL,
+                'XML_ID' => 'bx_5ec58624e6c8a',
+                'MARKING_CODE_GROUP' => NULL,
+              ),
+               'changedValues' => 
+              array (
+              ),
+               'originalValues' => 
+              array (
+              ),
+               'customFields' => 
+              array (
+                'PRICE' => true,
+              ),
+               'isClone' => false,
+            )),
+             'eventName' => 'SaleBasketItem',
+          )),
+          1 => 
+          Bitrix\Sale\BasketItem::__set_state(array(
+             'bundleCollection' => NULL,
+             'propertyCollection' => NULL,
+             'calculatedFields' => 
+            Bitrix\Sale\Internals\Fields::__set_state(array(
+               'values' => 
+              array (
+              ),
+               'changedValues' => 
+              array (
+              ),
+               'originalValues' => 
+              array (
+              ),
+               'customFields' => 
+              array (
+              ),
+               'isClone' => false,
+            )),
+             'provider' => NULL,
+             'internalId' => 37200,
+             'collection' => NULL,
+             'internalIndex' => 1,
+             'isClone' => false,
+             'fields' => 
+            Bitrix\Sale\Internals\Fields::__set_state(array(
+               'values' => 
+              array (
+                'ID' => '37200',
+                'LID' => 's1',
+                'MODULE' => 'catalog',
+                'PRODUCT_ID' => '20882',
+                'QUANTITY' => '2.0000',
+                'WEIGHT' => '100.00',
+                'DELAY' => 'N',
+                'CAN_BUY' => 'Y',
+                'PRICE' => 608.0,
+                'CUSTOM_PRICE' => 'Y',
+                'BASE_PRICE' => 676.0,
+                'PRODUCT_PRICE_ID' => '20422',
+                'PRICE_TYPE_ID' => '1',
+                'CURRENCY' => 'RUB',
+                'BARCODE_MULTI' => 'N',
+                'RESERVED' => 'N',
+                'RESERVE_QUANTITY' => NULL,
+                'NAME' => 'Фреза профильная (d8/D28.6/H12.4/L54/R4) HM BOSCH 2608628394',
+                'CATALOG_XML_ID' => '3e11da7d-2c70-4d0d-a47e-85b7034e0a11',
+                'VAT_RATE' => '0.2000',
+                'NOTES' => 'Розничная цена',
+                'DISCOUNT_PRICE' => 0.0,
+                'PRODUCT_PROVIDER_CLASS' => 'CCatalogProductProviderCustom',
+                'CALLBACK_FUNC' => NULL,
+                'ORDER_CALLBACK_FUNC' => NULL,
+                'PAY_CALLBACK_FUNC' => NULL,
+                'CANCEL_CALLBACK_FUNC' => NULL,
+                'DIMENSIONS' => 'a:3:{s:5:"WIDTH";s:1:"0";s:6:"HEIGHT";s:1:"0";s:6:"LENGTH";s:1:"0";}',
+                'TYPE' => NULL,
+                'SET_PARENT_ID' => NULL,
+                'DETAIL_PAGE_URL' => '/catalog/raskhodnye_materialy_3/osnastka_dlya_ruchnykh_frezerov/frezy_po_derevu/freza_profilnaya_d8_d28_6_h12_4_l54_r4_hm_bosch_2608628394/',
+                'FUSER_ID' => '43',
+                'MEASURE_CODE' => '796',
+                'MEASURE_NAME' => 'шт',
+                'ORDER_ID' => NULL,
+                'DATE_INSERT' => 
+                Bitrix\Main\Type\DateTime::__set_state(array(
+                   'value' => 
+                  DateTime::__set_state(array(
+                     'date' => '2020-05-20 22:33:57.000000',
+                     'timezone_type' => 3,
+                     'timezone' => 'Europe/Moscow',
+                  )),
+                )),
+                'DATE_UPDATE' => 
+                Bitrix\Main\Type\DateTime::__set_state(array(
+                   'value' => 
+                  DateTime::__set_state(array(
+                     'date' => '2020-05-21 12:30:46.000000',
+                     'timezone_type' => 3,
+                     'timezone' => 'Europe/Moscow',
+                  )),
+                )),
+                'PRODUCT_XML_ID' => 'e4d13d8c-315e-4074-b988-04c18b258c85',
+                'SUBSCRIBE' => 'N',
+                'RECOMMENDATION' => NULL,
+                'VAT_INCLUDED' => 'Y',
+                'SORT' => '300',
+                'DATE_REFRESH' => NULL,
+                'DISCOUNT_NAME' => NULL,
+                'DISCOUNT_VALUE' => NULL,
+                'DISCOUNT_COUPON' => NULL,
+                'XML_ID' => 'bx_5ec58625b96f2',
+                'MARKING_CODE_GROUP' => NULL,
+              ),
+               'changedValues' => 
+              array (
+              ),
+               'originalValues' => 
+              array (
+              ),
+               'customFields' => 
+              array (
+                'PRICE' => true,
+              ),
+               'isClone' => false,
+            )),
+             'eventName' => 'SaleBasketItem',
+          )),
+          2 => 
+          Bitrix\Sale\BasketItem::__set_state(array(
+             'bundleCollection' => NULL,
+             'propertyCollection' => NULL,
+             'calculatedFields' => 
+            Bitrix\Sale\Internals\Fields::__set_state(array(
+               'values' => 
+              array (
+              ),
+               'changedValues' => 
+              array (
+              ),
+               'originalValues' => 
+              array (
+              ),
+               'customFields' => 
+              array (
+              ),
+               'isClone' => false,
+            )),
+             'provider' => NULL,
+             'internalId' => 37201,
+             'collection' => NULL,
+             'internalIndex' => 2,
+             'isClone' => false,
+             'fields' => 
+            Bitrix\Sale\Internals\Fields::__set_state(array(
+               'values' => 
+              array (
+                'ID' => '37201',
+                'LID' => 's1',
+                'MODULE' => 'catalog',
+                'PRODUCT_ID' => '20880',
+                'QUANTITY' => '1.0000',
+                'WEIGHT' => '100.00',
+                'DELAY' => 'N',
+                'CAN_BUY' => 'Y',
+                'PRICE' => 422.0,
+                'CUSTOM_PRICE' => 'Y',
+                'BASE_PRICE' => 496.0,
+                'PRODUCT_PRICE_ID' => '20420',
+                'PRICE_TYPE_ID' => '1',
+                'CURRENCY' => 'RUB',
+                'BARCODE_MULTI' => 'N',
+                'RESERVED' => 'N',
+                'RESERVE_QUANTITY' => NULL,
+                'NAME' => 'Фреза кромочная фасонная (d8/D12.7/H12.4/L46/R2.4) HM BOSCH 2608628398',
+                'CATALOG_XML_ID' => '3e11da7d-2c70-4d0d-a47e-85b7034e0a11',
+                'VAT_RATE' => '0.2000',
+                'NOTES' => 'Розничная цена',
+                'DISCOUNT_PRICE' => 0.0,
+                'PRODUCT_PROVIDER_CLASS' => 'CCatalogProductProviderCustom',
+                'CALLBACK_FUNC' => NULL,
+                'ORDER_CALLBACK_FUNC' => NULL,
+                'PAY_CALLBACK_FUNC' => NULL,
+                'CANCEL_CALLBACK_FUNC' => NULL,
+                'DIMENSIONS' => 'a:3:{s:5:"WIDTH";s:1:"0";s:6:"HEIGHT";s:1:"0";s:6:"LENGTH";s:1:"0";}',
+                'TYPE' => NULL,
+                'SET_PARENT_ID' => NULL,
+                'DETAIL_PAGE_URL' => '/catalog/raskhodnye_materialy_3/osnastka_dlya_ruchnykh_frezerov/frezy_po_derevu/freza_kromochnaya_fasonnaya_d8_d12_7_h12_4_l46_r2_4_hm_bosch_2608628398/',
+                'FUSER_ID' => '43',
+                'MEASURE_CODE' => '796',
+                'MEASURE_NAME' => 'шт',
+                'ORDER_ID' => NULL,
+                'DATE_INSERT' => 
+                Bitrix\Main\Type\DateTime::__set_state(array(
+                   'value' => 
+                  DateTime::__set_state(array(
+                     'date' => '2020-05-20 22:33:58.000000',
+                     'timezone_type' => 3,
+                     'timezone' => 'Europe/Moscow',
+                  )),
+                )),
+                'DATE_UPDATE' => 
+                Bitrix\Main\Type\DateTime::__set_state(array(
+                   'value' => 
+                  DateTime::__set_state(array(
+                     'date' => '2020-05-21 12:30:46.000000',
+                     'timezone_type' => 3,
+                     'timezone' => 'Europe/Moscow',
+                  )),
+                )),
+                'PRODUCT_XML_ID' => 'd1bb2bfb-6a91-48cc-a3aa-4499f46cc65b',
+                'SUBSCRIBE' => 'N',
+                'RECOMMENDATION' => NULL,
+                'VAT_INCLUDED' => 'Y',
+                'SORT' => '400',
+                'DATE_REFRESH' => NULL,
+                'DISCOUNT_NAME' => NULL,
+                'DISCOUNT_VALUE' => NULL,
+                'DISCOUNT_COUPON' => NULL,
+                'XML_ID' => 'bx_5ec5862661870',
+                'MARKING_CODE_GROUP' => NULL,
+              ),
+               'changedValues' => 
+              array (
+              ),
+               'originalValues' => 
+              array (
+              ),
+               'customFields' => 
+              array (
+                'PRICE' => true,
+              ),
+               'isClone' => false,
+            )),
+             'eventName' => 'SaleBasketItem',
+          )),
+          3 => 
+          Bitrix\Sale\BasketItem::__set_state(array(
+             'bundleCollection' => NULL,
+             'propertyCollection' => NULL,
+             'calculatedFields' => 
+            Bitrix\Sale\Internals\Fields::__set_state(array(
+               'values' => 
+              array (
+              ),
+               'changedValues' => 
+              array (
+              ),
+               'originalValues' => 
+              array (
+              ),
+               'customFields' => 
+              array (
+              ),
+               'isClone' => false,
+            )),
+             'provider' => NULL,
+             'internalId' => 37202,
+             'collection' => NULL,
+             'internalIndex' => 3,
+             'isClone' => false,
+             'fields' => 
+            Bitrix\Sale\Internals\Fields::__set_state(array(
+               'values' => 
+              array (
+                'ID' => '37202',
+                'LID' => 's1',
+                'MODULE' => 'catalog',
+                'PRODUCT_ID' => '20910',
+                'QUANTITY' => '1.0000',
+                'WEIGHT' => '100.00',
+                'DELAY' => 'N',
+                'CAN_BUY' => 'Y',
+                'PRICE' => 885.0,
+                'CUSTOM_PRICE' => 'Y',
+                'BASE_PRICE' => 885.0,
+                'PRODUCT_PRICE_ID' => '20450',
+                'PRICE_TYPE_ID' => '1',
+                'CURRENCY' => 'RUB',
+                'BARCODE_MULTI' => 'N',
+                'RESERVED' => 'N',
+                'RESERVE_QUANTITY' => NULL,
+                'NAME' => 'Хвостовик для плоских фрез (d8/L60.3) Expert for Wood BOSCH 2608629390',
+                'CATALOG_XML_ID' => '3e11da7d-2c70-4d0d-a47e-85b7034e0a11',
+                'VAT_RATE' => '0.2000',
+                'NOTES' => 'Розничная цена',
+                'DISCOUNT_PRICE' => 0.0,
+                'PRODUCT_PROVIDER_CLASS' => 'CCatalogProductProviderCustom',
+                'CALLBACK_FUNC' => NULL,
+                'ORDER_CALLBACK_FUNC' => NULL,
+                'PAY_CALLBACK_FUNC' => NULL,
+                'CANCEL_CALLBACK_FUNC' => NULL,
+                'DIMENSIONS' => 'a:3:{s:5:"WIDTH";s:1:"0";s:6:"HEIGHT";s:1:"0";s:6:"LENGTH";s:1:"0";}',
+                'TYPE' => NULL,
+                'SET_PARENT_ID' => NULL,
+                'DETAIL_PAGE_URL' => '/catalog/raskhodnye_materialy_3/osnastka_dlya_ruchnykh_frezerov/frezy_po_derevu/khvostovik_dlya_ploskikh_frez_d8_l60_3_expert_for_wood_bosch_2608629390/',
+                'FUSER_ID' => '43',
+                'MEASURE_CODE' => '796',
+                'MEASURE_NAME' => 'шт',
+                'ORDER_ID' => NULL,
+                'DATE_INSERT' => 
+                Bitrix\Main\Type\DateTime::__set_state(array(
+                   'value' => 
+                  DateTime::__set_state(array(
+                     'date' => '2020-05-20 22:34:16.000000',
+                     'timezone_type' => 3,
+                     'timezone' => 'Europe/Moscow',
+                  )),
+                )),
+                'DATE_UPDATE' => 
+                Bitrix\Main\Type\DateTime::__set_state(array(
+                   'value' => 
+                  DateTime::__set_state(array(
+                     'date' => '2020-05-21 01:02:44.000000',
+                     'timezone_type' => 3,
+                     'timezone' => 'Europe/Moscow',
+                  )),
+                )),
+                'PRODUCT_XML_ID' => 'a2df8a8b-54ed-4780-b32e-453aba5898a5',
+                'SUBSCRIBE' => 'N',
+                'RECOMMENDATION' => NULL,
+                'VAT_INCLUDED' => 'Y',
+                'SORT' => '500',
+                'DATE_REFRESH' => NULL,
+                'DISCOUNT_NAME' => NULL,
+                'DISCOUNT_VALUE' => NULL,
+                'DISCOUNT_COUPON' => NULL,
+                'XML_ID' => 'bx_5ec58638e8ce4',
+                'MARKING_CODE_GROUP' => NULL,
+              ),
+               'changedValues' => 
+              array (
+              ),
+               'originalValues' => 
+              array (
+              ),
+               'customFields' => 
+              array (
+                'PRICE' => true,
+              ),
+               'isClone' => false,
+            )),
+             'eventName' => 'SaleBasketItem',
+          )),
+          4 => NULL,
+        ),
+      )),
+       'internalIndex' => 4,
+       'isClone' => false,
+       'fields' => 
+      Bitrix\Sale\Internals\Fields::__set_state(array(
+         'values' => 
+        array (
+          'ID' => '37203',
+          'LID' => 's1',
+          'MODULE' => 'catalog',
+          'PRODUCT_ID' => '20910',
+          'QUANTITY' => '1.0000',
+          'WEIGHT' => '100.00',
+          'DELAY' => 'N',
+          'CAN_BUY' => 'Y',
+          'PRICE' => 885.0,
+          'CUSTOM_PRICE' => 'Y',
+          'BASE_PRICE' => 885.0,
+          'PRODUCT_PRICE_ID' => '20450',
+          'PRICE_TYPE_ID' => '1',
+          'CURRENCY' => 'RUB',
+          'BARCODE_MULTI' => 'N',
+          'RESERVED' => 'N',
+          'RESERVE_QUANTITY' => NULL,
+          'NAME' => 'Хвостовик для плоских фрез (d8/L60.3) Expert for Wood BOSCH 2608629390',
+          'CATALOG_XML_ID' => '3e11da7d-2c70-4d0d-a47e-85b7034e0a11',
+          'VAT_RATE' => '0.2000',
+          'NOTES' => 'Розничная цена',
+          'DISCOUNT_PRICE' => 0.0,
+          'PRODUCT_PROVIDER_CLASS' => 'CCatalogProductProviderCustom',
+          'CALLBACK_FUNC' => NULL,
+          'ORDER_CALLBACK_FUNC' => NULL,
+          'PAY_CALLBACK_FUNC' => NULL,
+          'CANCEL_CALLBACK_FUNC' => NULL,
+          'DIMENSIONS' => 'a:3:{s:5:"WIDTH";s:1:"0";s:6:"HEIGHT";s:1:"0";s:6:"LENGTH";s:1:"0";}',
+          'TYPE' => NULL,
+          'SET_PARENT_ID' => NULL,
+          'DETAIL_PAGE_URL' => '/catalog/raskhodnye_materialy_3/osnastka_dlya_ruchnykh_frezerov/frezy_po_derevu/khvostovik_dlya_ploskikh_frez_d8_l60_3_expert_for_wood_bosch_2608629390/',
+          'FUSER_ID' => '43',
+          'MEASURE_CODE' => '796',
+          'MEASURE_NAME' => 'шт',
+          'ORDER_ID' => NULL,
+          'DATE_INSERT' => 
+          Bitrix\Main\Type\DateTime::__set_state(array(
+             'value' => 
+            DateTime::__set_state(array(
+               'date' => '2020-05-20 22:34:16.000000',
+               'timezone_type' => 3,
+               'timezone' => 'Europe/Moscow',
+            )),
+          )),
+          'DATE_UPDATE' => 
+          Bitrix\Main\Type\DateTime::__set_state(array(
+             'value' => 
+            DateTime::__set_state(array(
+               'date' => '2020-05-21 01:02:44.000000',
+               'timezone_type' => 3,
+               'timezone' => 'Europe/Moscow',
+            )),
+          )),
+          'PRODUCT_XML_ID' => 'a2df8a8b-54ed-4780-b32e-453aba5898a5',
+          'SUBSCRIBE' => 'N',
+          'RECOMMENDATION' => NULL,
+          'VAT_INCLUDED' => 'Y',
+          'SORT' => '600',
+          'DATE_REFRESH' => NULL,
+          'DISCOUNT_NAME' => NULL,
+          'DISCOUNT_VALUE' => NULL,
+          'DISCOUNT_COUPON' => NULL,
+          'XML_ID' => 'bx_5ec58638efede',
+          'MARKING_CODE_GROUP' => NULL,
+        ),
+         'changedValues' => 
+        array (
+        ),
+         'originalValues' => 
+        array (
+        ),
+         'customFields' => 
+        array (
+          'PRICE' => true,
+        ),
+         'isClone' => false,
+      )),
+       'eventName' => NULL,
+    )),
+    'VALUES' => 
+    array (
+      'QUANTITY' => 1.0,
+      'AVAILABLE_QUANTITY' => 1.0,
+      'PRICE_LIST' => 
+      array (
+        37202 => 
+        array (
+          'QUANTITY' => 1.0,
+          'AVAILABLE_QUANTITY' => 1.0,
+          'ITEM_CODE' => 20910,
+          'BASKET_CODE' => 37202,
+        ),
+        37203 => 
+        array (
+          'QUANTITY' => 1.0,
+          'AVAILABLE_QUANTITY' => 1.0,
+          'ITEM_CODE' => 20910,
+          'BASKET_CODE' => 37203,
+        ),
+      ),
+    ),
+    'PREPARED_VALUES' => 
+    array (
+      'QUANTITY' => 1.0,
+    ),
+  ),
+   'parametersLoader' => NULL,
+   'filter' => NULL,
+   'sender' => NULL,
+   'debugMode' => false,
+   'debugInfo' => 
+  array (
+  ),
+   'results' => 
+  array (
+  ),
+   'exceptions' => 
+  array (
+  ),
+))
+    calcActionDiscount::OnGetDiscountResult < call_user_func_array < Bitrix\Main\EventManager::sendToEventHandler < Bitrix\Main\EventManager::send < Bitrix\Main\Event::send
+	/home/bitrix/www/bitrix/modules/main/lib/eventmanager.php:435
+	/home/bitrix/www/bitrix/modules/main/lib/eventmanager.php:371
+	/home/bitrix/www/bitrix/modules/main/lib/event.php:142
+	/home/bitrix/www/bitrix/modules/sale/lib/basket/baserefreshstrategy.php:177
+----------
