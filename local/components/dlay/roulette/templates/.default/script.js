@@ -1,16 +1,6 @@
 $(function () {
     $(".start-roulette").click(function () {
         $(".roulette-form form").submit();
-        /*
-        x = 10;
-        first = 490;
-        width = 150;
-        $('.window').animate({
-            right: x * width- 490 + (width - 50)
-        }, 10000, function () {
-            $(".wrapper_roulette_inner .list > .item").eq(x).addClass("selected");
-        });
-         */
     });
     $(".roulette-form form").submit(function () {
         let form = $(this);
@@ -26,9 +16,17 @@ $(function () {
             $.ajax({
                 url: "/local/components/dlay/roulette/templates/.default/ajax.php",
                 method: "POST",
+                dataType: "JSON",
                 data: form.serialize(),
                 success: function (data) {
                     console.log(data);
+                    if (data.success == "Y") {
+                        $(".wrapper_roulette .after-win").slideUp(function () {
+                            $(this).remove();
+                        });
+                        startRoulette(data.number);
+                    }
+                    else alert(data.text);
                 }
             });
         }
@@ -38,3 +36,15 @@ $(function () {
         $(this).parent().find(".error").fadeOut();
     });
 });
+
+function startRoulette(n) {
+    x = n;
+    first = 490;
+    width = 150;
+    $('.wrapper_roulette_inner .window').animate({
+        right: x * width - 490 + (width - 50)
+    }, 10000, function () {
+        $(".wrapper_roulette_inner .list > .item").eq(x).addClass("selected");
+        $(".wrapper_roulette .win").slideDown().text('Поздравляем! Вы выиграли!');
+    });
+}

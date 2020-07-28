@@ -23,8 +23,9 @@ echo '</pre>';
         </div>
     </div>
     <div class="roulette_info">
-        <div class="roulette-form">
+        <div class="roulette-form after-win">
             <form method="post">
+                <input type="hidden" value="check" name="action">
                 <div class="field-group">
                     <label>Ваше имя<span class="star">*</span><span class="error">Заполните поле</span></label>
                     <input type="text" name="fio" required>
@@ -43,7 +44,7 @@ echo '</pre>';
                 </div>
             </form>
         </div>
-        <div class="roulette-button">
+        <div class="roulette-button after-win">
             <button class="start-roulette">Выиграть приз!</button>
             <div class="roulette-text">
                 <?$APPLICATION->IncludeComponent(
@@ -58,5 +59,6 @@ echo '</pre>';
                 );?>
             </div>
         </div>
+        <div class="win"></div>
     </div>
 </div>
