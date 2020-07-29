@@ -196,3 +196,9 @@
     text-align: center;
     padding-top: 30px;
 }
+
+@media screen and (max-width: 1280px){
+    .wrapper_roulette {
+        display: none;
+    }
+}

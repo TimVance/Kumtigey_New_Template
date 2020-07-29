@@ -737,7 +737,7 @@ if($arParams["STAFF_MODE"] == "Y" || $arParams["SHOW_TOP_PARTNERS_BLOCK"] == "Y"
 
                 <!-- Вывод рулетки-->
                 <? if ( $arResult["ID"] == "46059"): ?>
-                    <?$APPLICATION->IncludeComponent("dlay:roulette", "", array());?>
+                    <?$APPLICATION->IncludeComponent("dlay:roulette", "", array(), $component);?>
                 <? endif; ?>
 
 				<?// element detail text?>
