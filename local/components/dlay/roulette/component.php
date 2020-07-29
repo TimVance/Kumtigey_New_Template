@@ -8,8 +8,8 @@ function getList($block_id)
 {
     $items = array();
     $arSelect = array("ID", "IBLOCK_ID", "NAME", "PREVIEW_PICTURE");
-    $arFilter = array("IBLOCK_ID" => $block_id, "ACTIVE_DATE" => "Y", "ACTIVE" => "Y");
-    $res      = CIBlockElement::GetList(array(), $arFilter, false, Array("nPageSize"=>150), $arSelect);
+    $arFilter = array("IBLOCK_ID" => $block_id, "ACTIVE_DATE" => "Y", "ACTIVE" => "Y", "PROPERTY_roulette_include_VALUE" => "Да");
+    $res      = CIBlockElement::GetList(array("ID" => "ASC"), $arFilter, false, Array(), $arSelect);
     while ($arFields = $res->GetNext()) {
         $items[$arFields["ID"]] = $arFields;
         $items[$arFields["ID"]]["IMG"] = CFile::GetPath($arFields["PREVIEW_PICTURE"]);
@@ -17,6 +17,8 @@ function getList($block_id)
     return $items;
 }
 
-$arResult["items"] = getList($block_id);
+if ($this->StartResultCache(600)) {
+    $arResult["items"] = getList($block_id);
+}
 
 $this->IncludeComponentTemplate();

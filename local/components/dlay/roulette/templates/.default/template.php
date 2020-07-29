@@ -1,12 +1,6 @@
 <?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();?>
 
-<?php
-
-echo '<pre style="display:none;">';
-print_r($arResult);
-echo '</pre>';
-
-?>
+<?php if (count($arResult["items"])): ?>
 
 <div class="wrapper_roulette">
     <div class="wrapper_roulette_inner">
@@ -62,3 +56,5 @@ echo '</pre>';
         <div class="win"></div>
     </div>
 </div>
+
+<?php endif; ?>

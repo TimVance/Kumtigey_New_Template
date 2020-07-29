@@ -42,9 +42,16 @@ function startRoulette(n) {
     first = 490;
     width = 150;
     $('.wrapper_roulette_inner .window').animate({
-        right: x * width - 490 + (width - 50)
+        right: x * width - first + getRandomInRange(1, 140)
     }, 10000, function () {
-        $(".wrapper_roulette_inner .list > .item").eq(x).addClass("selected");
-        $(".wrapper_roulette .win").slideDown().text('Поздравляем! Вы выиграли!');
+        let good = $(".wrapper_roulette_inner .list > .item").eq(x);
+        good.addClass("selected");
+        $(".wrapper_roulette .win").slideDown().html('<h2>Поздравляем Вас с выигрышем!</h2><div>Ваш подарок:</div> ');
+        good.clone().appendTo(".wrapper_roulette .win");
+        $(".wrapper_roulette .win").append("<h4>Мы скоро свяжемся с Вами по указанному телефону, для вручения подарка.</h4>");
     });
+}
+
+function getRandomInRange(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
 }

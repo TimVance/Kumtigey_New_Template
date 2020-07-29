@@ -9,7 +9,7 @@
 
 .wrapper_roulette .item {
     display: inline-block;
-    vertical-align: top;
+    vertical-align: middle;
     width: 150px;
     height: 260px;
     padding: 10px;
@@ -87,6 +87,7 @@
 .wrapper_roulette .list {
     position: relative;
     display: inline-block;
+    font-size: 0;
 }
 
 .roulette_info {
@@ -154,6 +155,7 @@
     font-size: 14px;
     max-height: 70px;
     overflow: hidden;
+    margin-top: 5px;
 }
 
 .wrapper_roulette .item.selected {
@@ -180,4 +182,17 @@
     float: right;
     display: none;
     color: red;
+}
+
+.wrapper_roulette .win .item {
+    border: none !important;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+
+.wrapper_roulette .win {
+    font-size: 24px;
+    text-align: center;
+    padding-top: 30px;
 }

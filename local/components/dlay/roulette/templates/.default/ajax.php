@@ -20,11 +20,11 @@ $request = Context::getCurrent()->getRequest();
 if ($request["action"] == "check") {
 
     $code = intval($request["code"]);
-    $phone = $request["tel"];
+    $phone = $request["phone"];
     $mail = $request["email"];
     $fio = $request["fio"];
 
-    $arSelect = array("ID", "NAME");
+    $arSelect = array("ID", "NAME", "PROPERTY_used");
     $arFilter = array("IBLOCK_ID" => 64, "NAME" => $code, "ACTIVE_DATE" => "Y", "ACTIVE" => "Y");
     $res      = CIBlockElement::GetList(array(), $arFilter, false, array(), $arSelect);
     $coupon   = array();
@@ -33,33 +33,58 @@ if ($request["action"] == "check") {
     }
     $result = array();
     if ($coupon["ID"]) {
-        $result["success"] = "Y";
-        $result["number"] = rand(1, 100);
 
-        $el = new CIBlockElement;
+        if ($coupon["PROPERTY_USED_VALUE"] == "N") {
 
-        $PROP = array();
-        $PROP[1700] = $code;
-        $PROP[1701] = $phone;
-        $PROP[1702] = $mail;
-        $PROP[1703] = $fio;
-        $PROP[1704] = $result["number"];
+            // Получаем товары, которые участвуют в акции
+            $items    = array();
+            $arSelect = array("ID", "IBLOCK_ID", "NAME");
+            $arFilter = array("IBLOCK_ID" => 14, "ACTIVE_DATE" => "Y", "ACTIVE" => "Y", "PROPERTY_roulette_include_VALUE" => "Да");
+            $res      = CIBlockElement::GetList(array("ID" => "ASC"), $arFilter, false, array(), $arSelect);
+            while ($arFields = $res->GetNext()) {
+                $items[] = $arFields;
+            }
+            // Получаем товары, которые участвуют в акции
 
-        $arLoadProductArray = Array(
-            "MODIFIED_BY"    => $USER->GetID(),
-            "IBLOCK_SECTION_ID" => false,
-            "IBLOCK_ID"      => 66,
-            "PROPERTY_VALUES"=> $PROP,
-            "NAME"           => $code,
-            "ACTIVE"         => "Y",
-        );
 
-        if($PRODUCT_ID = $el->Add($arLoadProductArray)) {
             $result["success"] = "Y";
+            $rand_number       = rand(0, count($items) - 1);
+
+            $el = new CIBlockElement;
+
+            $PROP       = array();
+            $PROP[1700] = $code;
+            $PROP[1701] = $phone;
+            $PROP[1702] = $mail;
+            $PROP[1703] = $fio;
+            $PROP[1704] = $rand_number;
+            $PROP[1706] = $items[$rand_number]["ID"];
+
+            $result["test"] = $items[$rand_number]["ID"];
+
+            $arLoadProductArray = array(
+                "MODIFIED_BY"       => $USER->GetID(),
+                "IBLOCK_SECTION_ID" => false,
+                "IBLOCK_ID"         => 66,
+                "PROPERTY_VALUES"   => $PROP,
+                "NAME"              => $code,
+                "ACTIVE"            => "Y",
+            );
+
+            if ($PRODUCT_ID = $el->Add($arLoadProductArray)) {
+                $result["success"] = "Y";
+                $result["number"]  = $rand_number;
+                CIBlockElement::SetPropertyValuesEx($coupon["ID"], false, ["used" => 2727]);
+
+            } else {
+                $result["success"] = "N";
+                $result["text"]    = 'Произошла ошибка! Пожалуйста, обратитесь к администратору';
+            }
+
         }
         else {
             $result["success"] = "N";
-            $result["text"] = $el->LAST_ERROR;
+            $result["text"] = 'Промокод уже использован!';
         }
 
     } else {
