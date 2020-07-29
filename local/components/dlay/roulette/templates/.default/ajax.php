@@ -60,8 +60,6 @@ if ($request["action"] == "check") {
             $PROP[1704] = $rand_number;
             $PROP[1706] = $items[$rand_number]["ID"];
 
-            $result["test"] = $items[$rand_number]["ID"];
-
             $arLoadProductArray = array(
                 "MODIFIED_BY"       => $USER->GetID(),
                 "IBLOCK_SECTION_ID" => false,
@@ -75,6 +73,7 @@ if ($request["action"] == "check") {
                 $result["success"] = "Y";
                 $result["number"]  = $rand_number;
                 CIBlockElement::SetPropertyValuesEx($coupon["ID"], false, ["used" => 2727]);
+                CIBlockElement::SetPropertyValuesEx($items[$rand_number]["ID"], false, ["roulette_include" => ""]);
 
             } else {
                 $result["success"] = "N";

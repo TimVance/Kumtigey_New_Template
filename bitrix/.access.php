@@ -1,0 +1,11 @@
+<?
+$PERM["admin"]["8"]="R";
+$PERM["admin"]["7"]="R";
+$PERM["admin"]["*"]="D";
+$PERM["admin"]["16"]="R";
+$PERM["admin"]["18"]="R";
+$PERM["admin"]["28"]="R";
+$PERM["tools"]["5"]="T_8";
+$PERM["rk.php"]["5"]="T_8";
+$PERM["wizards"]["*"]="D";
+?>
