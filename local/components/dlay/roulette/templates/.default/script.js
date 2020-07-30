@@ -19,6 +19,7 @@ $(function () {
                 dataType: "JSON",
                 data: form.serialize(),
                 success: function (data) {
+                    console.log(data);
                     if (data.success == "Y") {
                         $(".wrapper_roulette .after-win").slideUp(function () {
                             $(this).remove();

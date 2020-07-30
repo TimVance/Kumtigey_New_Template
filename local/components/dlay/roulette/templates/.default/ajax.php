@@ -34,7 +34,7 @@ if ($request["action"] == "check") {
     $result = array();
     if ($coupon["ID"]) {
 
-        if ($coupon["PROPERTY_USED_VALUE"] == "N") {
+        if ($coupon["PROPERTY_USED_VALUE"] == "Нет") {
 
             // Получаем товары, которые участвуют в акции
             $items    = array();
