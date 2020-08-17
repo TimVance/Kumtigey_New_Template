@@ -19,13 +19,13 @@ $request = Context::getCurrent()->getRequest();
 
 if ($request["action"] == "check") {
 
-    $code = intval($request["code"]);
+    $code  = intval($request["code"]);
     $phone = $request["phone"];
-    $mail = $request["email"];
-    $fio = $request["fio"];
+    $mail  = $request["email"];
+    $fio   = $request["fio"];
 
     $arSelect = array("ID", "NAME", "PROPERTY_used");
-    $arFilter = array("IBLOCK_ID" => 64, "NAME" => $code, "ACTIVE_DATE" => "Y", "ACTIVE" => "Y");
+    $arFilter = array("IBLOCK_ID" => 64, "NAME" => $code, "ACTIVE" => "Y");
     $res      = CIBlockElement::GetList(array(), $arFilter, false, array(), $arSelect);
     $coupon   = array();
     while ($ob = $res->GetNextElement()) {
@@ -39,7 +39,7 @@ if ($request["action"] == "check") {
             // Получаем товары, которые участвуют в акции
             $items    = array();
             $arSelect = array("ID", "IBLOCK_ID", "NAME");
-            $arFilter = array("IBLOCK_ID" => 14, "ACTIVE_DATE" => "Y", "ACTIVE" => "Y", "PROPERTY_roulette_include_VALUE" => "Да");
+            $arFilter = array("IBLOCK_ID" => 14, "ACTIVE" => "Y");
             $res      = CIBlockElement::GetList(array("ID" => "ASC"), $arFilter, false, array(), $arSelect);
             while ($arFields = $res->GetNext()) {
                 $items[] = $arFields;
@@ -72,23 +72,25 @@ if ($request["action"] == "check") {
             if ($PRODUCT_ID = $el->Add($arLoadProductArray)) {
                 $result["success"] = "Y";
                 $result["number"]  = $rand_number;
+
                 CIBlockElement::SetPropertyValuesEx($coupon["ID"], false, ["used" => 2727]);
-                CIBlockElement::SetPropertyValuesEx($items[$rand_number]["ID"], false, ["roulette_include" => ""]);
+                $el = new CIBlockElement;
+                $arLoadProductArray = array("ACTIVE" => "N");
+                $el->Update($items[$rand_number]["ID"], $arLoadProductArray);
 
             } else {
                 $result["success"] = "N";
                 $result["text"]    = 'Произошла ошибка! Пожалуйста, обратитесь к администратору';
             }
 
-        }
-        else {
+        } else {
             $result["success"] = "N";
-            $result["text"] = 'Промокод уже использован!';
+            $result["text"]    = 'Промокод уже использован!';
         }
 
     } else {
         $result["success"] = "N";
-        $result["text"] = 'Такого промокода не существует!';
+        $result["text"]    = 'Такого промокода не существует!';
     }
 
     echo json_encode($result);
