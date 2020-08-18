@@ -6,20 +6,22 @@ if (file_exists($_SERVER["DOCUMENT_ROOT"] . "/local/php_interface/s1/lib/calcDis
 // Проверка активности разделов
 function checkActivitySection()
 {
-    $iblock_catalog = 14;
-    $res_sections   = CIBlockSection::GetList(
-        [],
-        ["IBLOCK_ID" => $iblock_catalog],
-        ["CNT_ACTIVE" => "ACTIVE"],
-        ["IBLOCK_ID", "ID", "NAME", "ACTIVE"]
-    );
-    while ($res_section = $res_sections->GetNext()) {
-        if (!empty($res_section["ELEMENT_CNT"])) $active = "Y";
-        else $active = "N";
-        $bs       = new CIBlockSection;
-        $arFields = ["ACTIVE" => $active];
-        if ($active != $res_section["ACTIVE"])
-            $bs->Update($res_section["ID"], $arFields);
+    $iblock_catalogs = [14,26];
+    foreach ($iblock_catalogs as $iblock_catalog) {
+        $res_sections = CIBlockSection::GetList(
+            [],
+            ["IBLOCK_ID" => $iblock_catalog],
+            ["CNT_ACTIVE" => "ACTIVE"],
+            ["IBLOCK_ID", "ID", "NAME", "ACTIVE"]
+        );
+        while ($res_section = $res_sections->GetNext()) {
+            if (!empty($res_section["ELEMENT_CNT"])) $active = "Y";
+            else $active = "N";
+            $bs       = new CIBlockSection;
+            $arFields = ["ACTIVE" => $active];
+            if ($active != $res_section["ACTIVE"])
+                $bs->Update($res_section["ID"], $arFields);
+        }
     }
     return "checkActivitySection();";
 }
