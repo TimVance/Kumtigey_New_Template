@@ -41,6 +41,7 @@
         </div>
         <div class="roulette-button after-win">
             <button class="start-roulette">Выиграть приз!</button>
+            <p class="politic">Участвуя в акции вы соглашаетесь на обработку <a target="_blank" href="/include/licenses_detail.php">персональных данных</a>.</p>
             <div class="roulette-text">
                 <?$APPLICATION->IncludeComponent(
                     "bitrix:main.include",
