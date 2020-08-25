@@ -38,8 +38,8 @@ if ($request["action"] == "check") {
 
             // Получаем товары, которые участвуют в акции
             $items    = array();
-            $arSelect = array("ID", "IBLOCK_ID", "NAME");
-            $arFilter = array("IBLOCK_ID" => 14, "ACTIVE" => "Y");
+            $arSelect = array("ID", "IBLOCK_ID", "NAME", "CATALOG_QUANTITY");
+            $arFilter = array("IBLOCK_ID" => 67, "ACTIVE" => "Y");
             $res      = CIBlockElement::GetList(array("ID" => "ASC"), $arFilter, false, array(), $arSelect);
             while ($arFields = $res->GetNext()) {
                 $items[] = $arFields;
@@ -69,18 +69,31 @@ if ($request["action"] == "check") {
                 "ACTIVE"            => "Y",
             );
 
-            if ($PRODUCT_ID = $el->Add($arLoadProductArray)) {
-                $result["success"] = "Y";
-                $result["number"]  = $rand_number;
+            if (!empty($items[$rand_number]["CATALOG_QUANTITY"])) {
+                if ($PRODUCT_ID = $el->Add($arLoadProductArray)) {
+                    $result["success"] = "Y";
+                    $result["number"]  = $rand_number;
 
-                CIBlockElement::SetPropertyValuesEx($coupon["ID"], false, ["used" => 2727]);
-                $el = new CIBlockElement;
-                $arLoadProductArray = array("ACTIVE" => "N");
-                $el->Update($items[$rand_number]["ID"], $arLoadProductArray);
+                    CIBlockElement::SetPropertyValuesEx($coupon["ID"], false, ["used" => 2727]);
+                    $el                 = new CIBlockElement;
+                    $arLoadProductArray = array(
+                        "ACTIVE"           => "N",
+                    );
+                    $el->Update($items[$rand_number]["ID"], $arLoadProductArray);
 
-            } else {
+                    $obProduct = new CCatalogProduct();
+                    $obProduct->Update(
+                        $items[$rand_number]["ID"],
+                        ['QUANTITY' => intval($items[$rand_number]["CATALOG_QUANTITY"]) - 1]
+                    );
+                } else {
+                    $result["success"] = "N";
+                    $result["text"]    = 'Произошла ошибка! Пожалуйста, обратитесь к администратору';
+                }
+            }
+            else {
                 $result["success"] = "N";
-                $result["text"]    = 'Произошла ошибка! Пожалуйста, обратитесь к администратору';
+                $result["text"]    = 'Произошла ошибка, товар уже розыгран! Пожалуйста, обратитесь к администратору';
             }
 
         } else {

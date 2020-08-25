@@ -2,6 +2,7 @@
 
 <?php if (count($arResult["items"])): ?>
 
+
 <div class="wrapper_roulette">
     <div class="wrapper_roulette_inner">
         <span class="center-line"></span>
