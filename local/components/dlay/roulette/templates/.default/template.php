@@ -23,7 +23,10 @@
                 <input type="hidden" value="check" name="action">
                 <div class="field-group">
                     <label>Ваше имя<span class="star">*</span><span class="error">Заполните поле</span></label>
-                    <input type="text" name="fio" required>
+                    <div class="fio-field">
+                        <input type="text" name="fio" required autocomplete="off">
+                        <div class="suggestions"></div>
+                    </div>
                 </div>
                 <div class="field-group">
                     <label>Телефон<span class="star">*</span><span class="error">Заполните поле</span></label>

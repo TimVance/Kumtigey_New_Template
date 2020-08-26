@@ -34,6 +34,49 @@ $(function () {
     $(".roulette-form form input").change(function () {
         $(this).parent().find(".error").fadeOut();
     });
+    // Dadata
+    $(".roulette-form input[name='fio']").keyup(function () {
+        let container = $(".fio-field .suggestions");
+        var url = "https://suggestions.dadata.ru/suggestions/api/4_1/rs/suggest/fio";
+        var token = "4d74e910fb52b66075703d9c1b4b4509acea1067";
+        var query = $(this).val();
+        var options = {
+            method: "POST",
+            mode: "cors",
+            headers: {
+                "Content-Type": "application/json",
+                "Accept": "application/json",
+                "Authorization": "Token " + token
+            },
+            body: JSON.stringify({query: query})
+        }
+        fetch(url, options)
+            .then(response => response.text())
+            .then(result => {
+                let count = 5;
+                container.html('');
+                let arrResult = JSON.parse(result);
+                arrResult.suggestions.forEach(function(el) {
+                    if (count > 0) {
+                        container.append('<span class="suggestions-item">' + el.value + '</span>');
+                        count--;
+                    }
+                });
+            })
+            .catch(error => console.log("error", error));
+    });
+
+    $(document).on("click", ".suggestions-item", function () {
+        $(".fio-field input[name='fio']").val($(this).text());
+        $(".fio-field .suggestions").html("");
+    });
+
+    $(document).on('click', function (e) {
+        var el = $(".suggestions");
+        if ($(e.target).closest(el).length) return;
+        $(".fio-field .suggestions").html("");
+    });
+
 });
 
 function startRoulette(n) {
