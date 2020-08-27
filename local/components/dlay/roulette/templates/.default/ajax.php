@@ -38,7 +38,7 @@ if ($request["action"] == "check") {
 
             // Получаем товары, которые участвуют в акции
             $items    = array();
-            $arSelect = array("ID", "IBLOCK_ID", "NAME", "CATALOG_QUANTITY");
+            $arSelect = array("ID", "IBLOCK_ID", "NAME", "CATALOG_QUANTITY", "DETAIL_PAGE_URL");
             $arFilter = array("IBLOCK_ID" => 67, "ACTIVE" => "Y");
             $res      = CIBlockElement::GetList(array("ID" => "ASC"), $arFilter, false, array(), $arSelect);
             while ($arFields = $res->GetNext()) {
@@ -77,7 +77,7 @@ if ($request["action"] == "check") {
                     CIBlockElement::SetPropertyValuesEx($coupon["ID"], false, ["used" => 2727]);
                     $el                 = new CIBlockElement;
                     $arLoadProductArray = array(
-                        "ACTIVE"           => "N",
+                        "ACTIVE" => "N",
                     );
                     $el->Update($items[$rand_number]["ID"], $arLoadProductArray);
 
@@ -86,12 +86,19 @@ if ($request["action"] == "check") {
                         $items[$rand_number]["ID"],
                         ['QUANTITY' => intval($items[$rand_number]["CATALOG_QUANTITY"]) - 1]
                     );
+
+                    // Send Mail
+                    $arEventFields = array(
+                        "EMAIL_TO" => $mail,
+                        "NAME"     => $fio,
+                        "PRICE"    => $items[$rand_number]["NAME"],
+                    );
+                    CEvent::Send("win_makita", 's1', $arEventFields);
                 } else {
                     $result["success"] = "N";
                     $result["text"]    = 'Произошла ошибка! Пожалуйста, обратитесь к администратору';
                 }
-            }
-            else {
+            } else {
                 $result["success"] = "N";
                 $result["text"]    = 'Произошла ошибка, товар уже розыгран! Пожалуйста, обратитесь к администратору';
             }
