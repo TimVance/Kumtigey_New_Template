@@ -90,7 +90,7 @@ function startRoulette(n) {
         good.addClass("selected");
         $(".wrapper_roulette .win").slideDown().html('<h2>Поздравляем Вас с выигрышем!</h2><div>Ваш подарок:</div> ');
         good.clone().appendTo(".wrapper_roulette .win");
-        $(".wrapper_roulette .win").append("<h4>Мы скоро свяжемся с Вами по указанному телефону, для вручения подарка.</h4>");
+        $(".wrapper_roulette .win").append("<h4>Информация о вашем призе отправлена на email. </br> Вам необходимо распечатать уведомление для получения приза.</br> Мы свяжемся с вами по указанному телефону для уточнения даты и времени для вручения приза</h4>");
     });
 }
 
