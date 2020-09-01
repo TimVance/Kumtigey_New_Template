@@ -735,10 +735,11 @@ if($arParams["STAFF_MODE"] == "Y" || $arParams["SHOW_TOP_PARTNERS_BLOCK"] == "Y"
 					<?=$htmlPreview;?>
 				<?endif;?>
 
-                <!-- Вывод рулетки-->
+                <!-- roulette -->
                 <? if ( $arResult["ID"] == "46059"): ?>
                     <?$APPLICATION->IncludeComponent("dlay:roulette", "", array(), $component);?>
                 <? endif; ?>
+                <!-- roulette -->
 
 				<?// element detail text?>
 				<?=$htmlDetail;?>

@@ -81,10 +81,10 @@ $(function () {
 
 function startRoulette(n) {
     x = n;
-    first = 490;
+    first = 492;
     width = 150;
     $('.wrapper_roulette_inner .window').animate({
-        right: x * width - first + getRandomInRange(1, 140)
+        right: x * width - first + getRandomInRange(20, 130)
     }, 10000, function () {
         let good = $(".wrapper_roulette_inner .list > .item").eq(x);
         good.addClass("selected");

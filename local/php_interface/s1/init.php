@@ -6,7 +6,7 @@ if (file_exists($_SERVER["DOCUMENT_ROOT"] . "/local/php_interface/s1/lib/calcDis
 // Проверка активности разделов
 function checkActivitySection()
 {
-    $iblock_catalogs = [14,26];
+    $iblock_catalogs = [14, 26];
     foreach ($iblock_catalogs as $iblock_catalog) {
         $res_sections = CIBlockSection::GetList(
             [],
@@ -55,4 +55,32 @@ function checkActivityBrands()
         }
     }
     return "checkActivityBrands();";
+}
+
+
+// Рандомизация призов в рулетке
+function shuffleItems()
+{
+    $res = CIBlockElement::GetList(
+        [],
+        ["IBLOCK_ID" => 67],
+        false,
+        false,
+        ["ID", "IBLOCK_ID"]
+    );
+
+    $items = [];
+    while ($ob = $res->GetNext()) {
+        $items[] = $ob;
+    }
+
+    shuffle($items);
+
+    foreach ($items as $i => $item) {
+        $el    = new CIBlockElement;
+        $props = ["SORT" => $i];
+        $el->Update($item["ID"], $props);
+    }
+
+    return "shuffleItems();";
 }

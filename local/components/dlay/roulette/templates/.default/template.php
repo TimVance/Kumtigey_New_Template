@@ -8,11 +8,13 @@
         <span class="center-line"></span>
         <div class="window">
             <div class="list">
+                <? $i = 0; ?>
                 <?foreach ($arResult["items"] as $item):?>
-                    <div class="item">
+                    <div class="item" data-id="<?=$i?>">
                         <div class="image-wrapper"><img src="<?=$item["IMG"]?>" alt="<?=$item["NAME"]?>"></div>
                         <div class="roulette-name"><?=$item["NAME"]?></div>
                     </div>
+                    <? $i++; ?>
                 <?php endforeach; ?>
             </div>
         </div>

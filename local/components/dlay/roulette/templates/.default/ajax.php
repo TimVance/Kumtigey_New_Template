@@ -40,7 +40,7 @@ if ($request["action"] == "check") {
             $items    = array();
             $arSelect = array("ID", "IBLOCK_ID", "NAME", "CATALOG_QUANTITY", "DETAIL_PAGE_URL");
             $arFilter = array("IBLOCK_ID" => 67, "ACTIVE" => "Y");
-            $res      = CIBlockElement::GetList(array("ID" => "ASC"), $arFilter, false, array(), $arSelect);
+            $res      = CIBlockElement::GetList(array("SORT" => "ASC"), $arFilter, false, array(), $arSelect);
             while ($arFields = $res->GetNext()) {
                 $items[] = $arFields;
             }
