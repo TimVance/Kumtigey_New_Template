@@ -23,7 +23,7 @@ $(function () {
                         $(".wrapper_roulette .after-win").slideUp(function () {
                             $(this).remove();
                         });
-                        startRoulette(data.number);
+                        startRoulette(data.id);
                     }
                     else alert(data.text);
                 }
@@ -79,10 +79,11 @@ $(function () {
 
 });
 
-function startRoulette(n) {
-    x = n;
+function startRoulette(id) {
+    let x = $(".wrapper_roulette_inner .list > .item[data-id='"+id+"']").index();
     first = 492;
     width = 150;
+    $('.wrapper_roulette_inner .window').css("right", 0);
     $('.wrapper_roulette_inner .window').animate({
         right: x * width - first + getRandomInRange(20, 130)
     }, 10000, function () {

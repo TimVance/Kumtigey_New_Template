@@ -737,7 +737,7 @@ if($arParams["STAFF_MODE"] == "Y" || $arParams["SHOW_TOP_PARTNERS_BLOCK"] == "Y"
 
                 <!-- roulette -->
                 <? if ( $arResult["ID"] == "46059"): ?>
-                    <?$APPLICATION->IncludeComponent("dlay:roulette", "", array(), $component);?>
+                    <?$APPLICATION->IncludeComponent("dlay:roulette", "", array(), $component, array("HIDE_ICONS" => "Y"));?>
                 <? endif; ?>
                 <!-- roulette -->
 

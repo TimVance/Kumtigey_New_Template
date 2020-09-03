@@ -73,13 +73,9 @@ if ($request["action"] == "check") {
                 if ($PRODUCT_ID = $el->Add($arLoadProductArray)) {
                     $result["success"] = "Y";
                     $result["number"]  = $rand_number;
+                    $result["id"]  = $items[$rand_number]["ID"]; // Передаем ID в фронтенд
 
                     CIBlockElement::SetPropertyValuesEx($coupon["ID"], false, ["used" => 2727]);
-                    $el                 = new CIBlockElement;
-                    $arLoadProductArray = array(
-                        "ACTIVE" => "N",
-                    );
-                    $el->Update($items[$rand_number]["ID"], $arLoadProductArray);
 
                     $obProduct = new CCatalogProduct();
                     $obProduct->Update(
@@ -94,6 +90,40 @@ if ($request["action"] == "check") {
                         "PRICE"    => $items[$rand_number]["NAME"],
                     );
                     CEvent::Send("win_makita", 's1', $arEventFields);
+
+                    /*
+                     *  Отсылаем уведомление в телеграмм
+                     *
+                     */
+
+$message = '
+Новый победитель в рулетке!
+ID: '.$PRODUCT_ID.'
+Товар: '.$items[$rand_number]["NAME"].' (ID: '.$items[$rand_number]["ID"].')
+ФИО: '.$fio.'
+E-mail: '.$mail.'
+
+https://kumtigey.ru/bitrix/admin/iblock_element_edit.php?IBLOCK_ID=66&type=aspro_max_content&lang=ru&ID='.$PRODUCT_ID.'&find_section_section=-1&WF=Y
+';
+
+                    $pluginOptions = array();
+                    $pluginOptions['token'] = '1385253137:AAGYiTvfbOjADVQa6nxtV60650WGysrQ644';
+                    $pluginOptions['id_chat'] = '-1001334631205';
+                    if (empty($pluginOptions)) {
+                        return false;
+                    }
+                    if (empty($pluginOptions['token']) || empty($pluginOptions['id_chat'])) {
+                        return false;
+                    }
+                    $arResult = array();
+                    $tbot     = file_get_contents("https://api.telegram.org/bot" . $pluginOptions['token'] . "/sendMessage?chat_id=" . $pluginOptions['id_chat'] . "&text=" . urlencode($message));
+                    $arResult = json_decode($tbot, TRUE);
+
+                    /*
+                     *  Отсылаем уведомление в телеграмм
+                     *
+                     */
+
                 } else {
                     $result["success"] = "N";
                     $result["text"]    = 'Произошла ошибка! Пожалуйста, обратитесь к администратору';

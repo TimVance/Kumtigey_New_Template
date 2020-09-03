@@ -23,8 +23,8 @@ function getList($block_id)
 }
 
 $arResult["items"] = [];
-if ($this->StartResultCache(600)) {
+//if ($this->StartResultCache(600)) {
     $arResult["items"] = getList($block_id);
-}
+//}
 
 $this->IncludeComponentTemplate();

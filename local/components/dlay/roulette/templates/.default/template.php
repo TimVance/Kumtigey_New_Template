@@ -10,7 +10,7 @@
             <div class="list">
                 <? $i = 0; ?>
                 <?foreach ($arResult["items"] as $item):?>
-                    <div class="item" data-id="<?=$i?>">
+                    <div class="item" data-number="<?=$i?>" data-id="<?=$item["ID"]?>">
                         <div class="image-wrapper"><img src="<?=$item["IMG"]?>" alt="<?=$item["NAME"]?>"></div>
                         <div class="roulette-name"><?=$item["NAME"]?></div>
                     </div>
@@ -24,7 +24,7 @@
             <form method="post">
                 <input type="hidden" value="check" name="action">
                 <div class="field-group">
-                    <label>Ваше имя<span class="star">*</span><span class="error">Заполните поле</span></label>
+                    <label>ФИО Полностью<span class="star">*</span><span class="error">Заполните поле</span></label>
                     <div class="fio-field">
                         <input type="text" name="fio" required autocomplete="off">
                         <div class="suggestions"></div>
