@@ -130,11 +130,11 @@ https://kumtigey.ru/bitrix/admin/iblock_element_edit.php?IBLOCK_ID=66&type=aspro
 
                 } else {
                     $result["success"] = "N";
-                    $result["text"]    = 'Произошла ошибка! Пожалуйста, обратитесь к администратору';
+                    $result["text"]    = 'Произошла ошибка! Перезагрузите страницу и попробуйте еще раз!';
                 }
             } else {
                 $result["success"] = "N";
-                $result["text"]    = 'Произошла ошибка, товар уже розыгран! Пожалуйста, обратитесь к администратору';
+                $result["text"]    = 'Произошла ошибка! Перезагрузите страницу и попробуйте еще раз!';
             }
 
         } else {
