@@ -39,7 +39,11 @@ if ($request["action"] == "check") {
             // Получаем товары, которые участвуют в акции
             $items    = array();
             $arSelect = array("ID", "IBLOCK_ID", "NAME", "CATALOG_QUANTITY", "DETAIL_PAGE_URL");
-            $arFilter = array("IBLOCK_ID" => 67, "ACTIVE" => "Y");
+            $arFilter = array(
+                "IBLOCK_ID" => 67,
+                "ACTIVE" => "Y",
+                ">CATALOG_QUANTITY" => 0
+            );
             $res      = CIBlockElement::GetList(array("SORT" => "ASC"), $arFilter, false, array(), $arSelect);
             while ($arFields = $res->GetNext()) {
                 $items[] = $arFields;

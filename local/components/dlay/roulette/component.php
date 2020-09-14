@@ -10,7 +10,6 @@ function getList($block_id)
     $arSelect = array("ID", "IBLOCK_ID", "NAME", "PREVIEW_PICTURE", "CATALOG_QUANTITY");
     $arFilter = array(
         "IBLOCK_ID" => $block_id,
-        "ACTIVE_DATE" => "Y",
         "ACTIVE" => "Y",
         ">CATALOG_QUANTITY" => 0
     );
