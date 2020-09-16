@@ -2,7 +2,7 @@
 
 <?
 $arElements = $APPLICATION->IncludeComponent(
-	"bitrix:search.page",
+	"dlay:search.page",
 	"",
 	Array(
 		"RESTART" => $arParams["RESTART"],
