@@ -23,6 +23,7 @@ if ($request["action"] == "check") {
     $phone = $request["phone"];
     $mail  = $request["email"];
     $fio   = $request["fio"];
+    $shop   = $request["shop"];
 
     $arSelect = array("ID", "NAME", "PROPERTY_used");
     $arFilter = array("IBLOCK_ID" => 64, "NAME" => $code, "ACTIVE" => "Y");
@@ -63,6 +64,7 @@ if ($request["action"] == "check") {
             $PROP[1703] = $fio;
             $PROP[1704] = $rand_number;
             $PROP[1706] = $items[$rand_number]["ID"];
+            $PROP[1716] = $shop;
 
             $arLoadProductArray = array(
                 "MODIFIED_BY"       => $USER->GetID(),

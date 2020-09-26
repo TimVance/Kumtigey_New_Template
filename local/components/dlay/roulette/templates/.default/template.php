@@ -39,6 +39,14 @@
                     <input type="email" name="email" required>
                 </div>
                 <div class="field-group">
+                    <label>Адрес магазина Кум-Тигей инструмент выдачи купона<span class="star">*</span><span class="error">Заполните поле</span></label>
+                    <select name="shop">
+                        <option value="2766">ул. Калинина 106</option>
+                        <option value="2767">ул. Мечникова 46А</option>
+                        <option value="2768">пр. Красноярский рабочий 37</option>
+                    </select>
+                </div>
+                <div class="field-group">
                     <label>Код купона<span class="star">*</span><span class="error">Заполните поле</span></label>
                     <input type="text" name="code" required>
                 </div>
