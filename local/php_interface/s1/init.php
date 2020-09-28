@@ -1,5 +1,7 @@
 <?php
 
+use Bitrix\Sale;
+
 if (file_exists($_SERVER["DOCUMENT_ROOT"] . "/local/php_interface/s1/lib/calcDiscount.php"))
     require_once($_SERVER["DOCUMENT_ROOT"] . "/local/php_interface/s1/lib/calcDiscount.php");
 
@@ -83,4 +85,25 @@ function shuffleItems()
     }
 
     return "shuffleItems();";
+}
+
+
+function ChangeStatusOldOrders() {
+    $parameters = [
+        'filter' => [
+            "<=DATE_INSERT" => date('d.m.Y', strtotime("-3 days")),
+            "!STATUS_ID" => "F"
+        ],
+        'order' => ["DATE_INSERT" => "ASC"],
+        'limit' => 500
+    ];
+
+    $dbRes = \Bitrix\Sale\Order::getList($parameters);
+    while ($order = $dbRes->fetch())
+    {
+        $order_id = \Bitrix\Sale\Order::load($order["ID"]);
+        $order_id->setField('STATUS_ID', 'F');
+        $order_id->save();
+    }
+    return "ChangeStatusOldOrders();";
 }
