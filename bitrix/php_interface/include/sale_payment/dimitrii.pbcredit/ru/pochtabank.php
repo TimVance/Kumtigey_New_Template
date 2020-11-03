@@ -1,0 +1,1 @@
+<? require($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/dimitrii.pbcredit/payment/dimitrii.pbcredit/ru/pochtabank.php");?>
